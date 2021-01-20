@@ -10,7 +10,10 @@ textarea {
 .cardContent h4 {
   margin-top: 0;
 }
-
+.memorizePanel {
+  padding: 5px;
+  margin-bottom: 10px;
+}
 .alignContainer {
   display: table;
   width: 100%;
