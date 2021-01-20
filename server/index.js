@@ -7,6 +7,8 @@ const app = express();
 const Sequelize = require("sequelize");
 const sequelize = require("./database");
 const questionModel = require("./models/questions");
+const reviewModel = require("./models/reviewed");
+
 app.use(bodyParser.json()); // application/json
 
 app.use((req, res, next) => {
@@ -15,11 +17,14 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Methods",
     "OPTIONS, GET, POST, PUT, PATCH, DELETE"
   );
-  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Origin, Content-Type, X-Auth-Token"
+  );
   next();
 });
 
-app.use(questionRoutes);
+app.use("/", questionRoutes);
 
 sequelize
   .sync()
@@ -28,4 +33,8 @@ sequelize
   })
   .catch((e) => console.log(e));
 
-app.listen(5000);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 5000;
+}
+app.listen(port);

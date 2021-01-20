@@ -1,13 +1,14 @@
 const Sequelize = require("sequelize");
 const sequelize = require("../database");
 
-const questionModel = sequelize.define(
-  "questions",
+const reviewModel = sequelize.define(
+  "review",
   {
     id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       allowNull: false,
+      autoIncrement: true,
     },
     question: {
       type: Sequelize.STRING(5000),
@@ -26,4 +27,4 @@ const questionModel = sequelize.define(
   { timestamps: false }
 );
 
-module.exports = questionModel;
+module.exports = reviewModel;
