@@ -6,8 +6,15 @@ const app = express();
 
 const Sequelize = require("sequelize");
 const sequelize = require("./database");
-const questionModel = require("./models/questions");
-const reviewModel = require("./models/reviewed");
+const Questions = require("./models/questions");
+const Reviewed = require("./models/reviewed");
+const Users = require("./models/users");
+const UserReviews = require("./models/userReviews");
+Users.hasOne(Reviewed);
+Reviewed.belongsTo(Users);
+
+Reviewed.belongsToMany(Questions, { through: UserReviews });
+Questions.belongsToMany(Reviewed, { through: UserReviews });
 
 app.use(bodyParser.json()); // application/json
 
@@ -27,7 +34,7 @@ app.use((req, res, next) => {
 app.use("/", questionRoutes);
 
 sequelize
-  .sync()
+  .sync({})
   .then((res) => {
     console.log("success");
   })

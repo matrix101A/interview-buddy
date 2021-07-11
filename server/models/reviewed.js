@@ -2,26 +2,13 @@ const Sequelize = require("sequelize");
 const sequelize = require("../database");
 
 const reviewModel = sequelize.define(
-  "review",
+  "reviewed",
   {
     id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
       allowNull: false,
       autoIncrement: true,
-    },
-    question: {
-      type: Sequelize.STRING(5000),
-      allowNull: true,
-    },
-
-    solution: {
-      type: Sequelize.STRING(5000),
-      allowNull: true,
-    },
-    difficulty: {
-      type: Sequelize.STRING,
-      allowNull: true,
     },
   },
   { timestamps: false }
