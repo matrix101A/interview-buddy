@@ -2,9 +2,8 @@ import Layout from "./components/Layout";
 import Practice from "./components/Practice";
 import { createBrowserHistory } from "history";
 import Home from "./components/Home";
-import firebaseConfig from "./firebase";
 import { useState, useEffect } from "react";
-import firebase from "firebase";
+import firebase from "./firebase";
 
 import "firebase/auth";
 
@@ -18,18 +17,33 @@ import ReviewedItems from "./components/ReviewedItems";
 
 function App() {
   useEffect(() => {
-    firebase.initializeApp(firebaseConfig);
     var provider = new firebase.auth.GoogleAuthProvider();
 
     firebase.auth().onAuthStateChanged(function (user) {
       if (user) {
+        fetch("http://localhost:5000/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user: user,
+          }),
+        })
+          .then((res) => {
+            console.log(res);
+            res.json().then((res) => {
+              console.log(res.message);
+            });
+          })
+          .catch((e) => console.log(e));
+
         console.log("signed in ");
       } else {
+        firebase.auth().signInWithRedirect(provider);
+
         firebase
           .auth()
-          .signInWithPopup(provider)
+          .getRedirectResult()
           .then((result) => {
-            /** @type {firebase.auth.OAuthCredential} */
             var credential = result.credential;
 
             // This gives you a Google Access Token. You can use it to access the Google API.
@@ -38,6 +52,7 @@ function App() {
             var user = result.user;
             // ...
           })
+
           .catch((error) => {
             // Handle Errors here.
             var errorCode = error.code;

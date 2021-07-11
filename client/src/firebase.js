@@ -1,8 +1,7 @@
-import "firebase/auth";
-import "firebase/firestore";
+import firebase from "firebase";
 
 // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
-var firebaseConfig = {
+var config = {
   apiKey: "AIzaSyC6ScEOwW_jIWPYifPrloCA8fiz1Ej-dEw",
   authDomain: "interview-buddy-713d1.firebaseapp.com",
   projectId: "interview-buddy-713d1",
@@ -14,4 +13,5 @@ var firebaseConfig = {
 
 // Initialize Firebase
 
-export default firebaseConfig;
+firebase.initializeApp(config);
+export default firebase;

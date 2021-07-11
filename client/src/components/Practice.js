@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import firebse from "../firebase";
 
 import { useState, useEffect } from "react";
 
@@ -7,18 +8,21 @@ function Practice() {
   const [question, setQuestion] = useState("");
   const [solution, setSolution] = useState("");
   const [difficulty, setDifficulty] = useState("");
+  const [user, setUser] = useState("");
 
   const [id, setId] = useState(1);
   const [message, setMessage] = useState("");
 
   const onClickReview = () => {
-    fetch("https://interview-buddy.herokuapp.com/add-review", {
+    fetch("http://localhost:5000/add-review", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
+        question_id: id,
         question: question,
         solution: solution,
         difficulty: difficulty,
+        user: user,
       }),
     })
       .then((result) => {
@@ -36,8 +40,21 @@ function Practice() {
     setId(id + 1);
   };
   useEffect(() => {
-    console.log("working");
-    fetch("https://interview-buddy.herokuapp.com/question", {
+    firebse.auth().onAuthStateChanged((user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        // https://firebase.google.com/docs/reference/js/firebase.User
+        var uid = user.uid;
+        setUser(uid);
+
+        // ...
+      } else {
+        // User is signed out
+        // ...
+      }
+    });
+
+    fetch("http://localhost:5000/question", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -1,8 +1,21 @@
 import React from "react";
+import firebse from "../firebase";
 
 function Layout() {
+  const onClickSignOut = () => {
+    firebse
+      .auth()
+      .signOut()
+      .then(() => {
+        // Sign-out successful.
+      })
+      .catch((error) => {
+        // An error happened.
+        console.log(error);
+      });
+  };
   return (
-    // Navigation bar made using bootstrao
+    // Navigation bar made using bootstrap
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -30,6 +43,11 @@ function Layout() {
               <li class="nav-item">
                 <a class="nav-link" href="/#/practice">
                   Practice Questions
+                </a>
+              </li>
+              <li class="nav-item" onClick={onClickSignOut}>
+                <a class="nav-link" href="/">
+                  Sign out
                 </a>
               </li>
             </ul>
