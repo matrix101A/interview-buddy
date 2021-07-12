@@ -16,7 +16,7 @@ function ReviewedItems() {
         // https://firebase.google.com/docs/reference/js/firebase.User
         var uid = user.uid;
         setUser(uid);
-        fetch("http://localhost:5000/review", {
+        fetch("https://interview-buddy.herokuapp.com/review", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

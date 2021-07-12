@@ -21,7 +21,7 @@ function App() {
 
     firebase.auth().onAuthStateChanged(function (user) {
       if (user) {
-        fetch("http://localhost:5000/login", {
+        fetch("https://interview-buddy.herokuapp.com/login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({

@@ -14,7 +14,7 @@ function Practice() {
   const [message, setMessage] = useState("");
 
   const onClickReview = () => {
-    fetch("http://localhost:5000/add-review", {
+    fetch("https://interview-buddy.herokuapp.com/add-review", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -54,7 +54,7 @@ function Practice() {
       }
     });
 
-    fetch("http://localhost:5000/question", {
+    fetch("https://interview-buddy.herokuapp.com/question", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
