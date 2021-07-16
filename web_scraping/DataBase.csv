@@ -1,0 +1,840 @@
+id,question,solution,difficulty
+1,"https://www.geeksforgeeks.org/check-whether-jigsaw-puzzle-solveable-or-not/
+",Given a special Jigsaw puzzle consisting of N rows and M columns all identical pieces. Every piece has three tabs and one blank. The task is to check if the puzzle is solvable by placing the pieces in such a way that the tab of one piece fits perfectly into a blank of other piece.,easy
+2,"https://www.geeksforgeeks.org/puzzle-man-fell-in-well-puzzle/
+",A man fell in a 50m deep well. He climbs 4 meters up and slips 3 meters down in one day. How many days would it take for him to come out of the well?,easy
+3,"https://www.geeksforgeeks.org/puzzle-three-squares/
+","Given four sticks of length ‘a’ and four more sticks of length ‘b’. The length of ‘b’ is exactly half of the length of ‘a’. The task is to make three equal squares using the given 8 sticks.
+",easy
+4,"https://www.geeksforgeeks.org/puzzle-find-the-culprit/
+","Joe is a person who can’t keep his secrets. He is that much careless that all his relatives and friends know his Debit Card PIN. Today Joe makes a profit of $1000. So he decided to throw a party and he invited his 3 friends: Leena, Paul, and Andrew. He was in a hurry to reach the home as soon as possible. Coming back to the home he stopped to buy some snacks. While taking out his wallet from his right pocket, by mistake he dropped some money on the ground and didn’t notice that. And this type of incident mostly happens.",medium
+5,"https://www.geeksforgeeks.org/birthday-puzzle/
+","Puzzle:On a new year day, two old friends (A and B) meet at a party. As they met after a long time person B wanted person A to guess his birthday. As both friends are not in touch for a long time person A was unable to guess his birthday. So person B decided to give some hints. Below are the hints:",easy
+6,"https://www.geeksforgeeks.org/ratio-of-area-of-one-circle-to-the-equilateral-triangle-when-three-equal-circles-are-placed-inside-an-equilateral-triangle/
+",Given three equal circles that are placed inside an equilateral triangle such that every circle is tangential to the sides of the equilateral triangle and to other circles. The task is to find the ratio of the area of one circle to the area of the equilateral triangle. ,medium
+7,"https://www.geeksforgeeks.org/puzzle-guess-the-bit-string/
+","Puzzle: Your friend thinks of an N bit string that will refer to it as a code. The task is to guess the code by asking your friend a series of queries. In each query, you can provide your friend with an N bit string of your choice, and your friend will tell you the number of bits in your string that coincides with the corresponding bits in the code. For example, if the code is 01011 and your query string is 11001, then the answer will be three because the two strings have the same bits on the second, third, and fifth positions. Devise an algorithm that can identify any N bit code in no more than N query.",medium
+8,"https://www.geeksforgeeks.org/puzzle-form-three-equilateral-triangles/
+",Suppose you have a regular hexagon made up of matchsticks with three diagonals in it. The task is to convert the given hexagon into three equilateral triangles by moving only 4 matchsticks.,medium
+9,"https://www.geeksforgeeks.org/puzzle-greek-cross-and-square/
+","Given a symmetrical Greek cross, the task is to cut the symmetrical Greek cross into five pieces, so that one piece shall be a smaller symmetrical Greek cross and the remaining four pieces will fit together and form a perfect square. ",hard
+10,"https://www.geeksforgeeks.org/puzzle-six-houses-p-q-r-s-t-and-u/
+","There are three houses on each side of the road. These six houses are labeled as P, Q, R, S, T, and U. The houses are of different colors, namely, Red, Blue, Green, Orange, Yellow, and White. The houses are of different heights.",medium
+11,"https://www.geeksforgeeks.org/puzzle-joint-family-of-seven-persons-l-m-n-o-p-q-and-r/
+","In a joint family of seven persons L, M, N, O, P, Q, and R, two are married couples. R is a housewife and her husband is a lawyer. N is the wife of M, L is an engineer and is the granddaughter of R, and O is the father-in-law of N, a doctor, and father of P, a professor. P and M are siblings of the same gender. Q is L’s brother and M’s son. How is L related to O and how many males are there in the family. ",easy
+12,"https://www.geeksforgeeks.org/count-of-equilateral-triangles-of-unit-length-possible-from-a-given-hexagon/
+","Given an array S[] consisting of the lengths of the 6 sides of a Hexagon, the task is to calculate the number of equilateral triangles of unit length that can be made from the given hexagon."
+13,"https://www.geeksforgeeks.org/puzzle-find-the-box-which-contains-box-of-11-gm-cigarettes/
+",Suppose you have 10 boxes and each box contains 10 Cigarettes.,medium
+14,"https://www.geeksforgeeks.org/puzzle-find-the-overweight-islander/
+","There are 12 men on an island. 11 weigh exactly the same, but one of them is slightly lighter or heavier. There is a seesaw to determine who is the odd one out. Find out the minimum number of times the seesaw will be used.",easy
+15,"https://www.geeksforgeeks.org/count-of-ordered-pairs-x-y-satisfying-the-equation-1-x-1-y-1-n/
+","Given a positive integer N, the task is to find the number of ordered pairs (X, Y) where both X and Y are positive integers, such that they satisfy the equation 1/X + 1/Y = 1/N.",easy
+16,"https://www.geeksforgeeks.org/puzzle-three-brothers-travelled-by-road/
+","Question :
+Three brothers, R, S and M, travelled by road. They all left the college at the same time – 12 noon. The description of the motions of the three are detailed below –"
+17,"https://www.geeksforgeeks.org/number-of-containers-that-can-be-filled-in-the-given-time/
+","Given a number N and a time X unit, the task is to find the number of containers that are filled completely in X unit if containers are arranged in pyramid fashion as shown below. "
+18,"https://www.geeksforgeeks.org/find-temperature-of-missing-days-using-given-sum-and-average/
+","Given integers x and y which denotes the average temperature of the week except for days Day1 and Day2 respectively, and the sum of the temperature of Day1 and Day2 as S, the task is to find the temperature of the days Day1 and Day2.Examples:  ",easy
+19,"https://www.geeksforgeeks.org/puzzle-the-counters-and-rectangular-board/
+","Given 3N counters where N &gt;= 1, there are three types of counters Red, White, and Blue all of them equal in count i.e., N and a rectangular board with 3 rows and N columns are filled with counters, the task is to rearrange the counters such that each column has counters of three different colors. The only operation allowed is to swap the counters in the same row. Design an algorithm to accomplish this task or prove that such an algorithm does not exist.",medium
+20,"https://www.geeksforgeeks.org/puzzle-planning-an-exhibition/
+","Puzzle: A museum has an exhibition space of 16 rooms. There is a door between every pair of horizontally and vertically adjacent rooms. In addition, each room on the north and south side of the building has a door leading outside. In planning a new exhibition, the curator has to decide which of the doors need to be open, so that a visitor can enter the exhibition through the door on the north side, visit each and every room exactly once, and gets out through a door on the south side. Also, the number of doors open should be minimum.",easy
+21,"https://www.geeksforgeeks.org/puzzle-place-numbers-1-to-9-in-a-circle-such-that-sum-of-every-triplet-in-straight-line-is-15/
+","Place the numbers 1 to 9 in a circle, so that wherever there are three in a straight line they shall add up to 15.",easy
+22,"https://www.geeksforgeeks.org/puzzle-who-wins-the-race-on-a-square-field-abcd-of-40-acres/
+","ABCD is a square field of 40 acres. The line BE is a straight path, and E is 110 yards from D. In a race Adam runs direct from A to D, but  Brown has to start from B, go from B to E, and thence to D. Each keeps to a uniform speed throughout, and when Brown reaches E, Adams is 30 yards ahead of him. Which wins the race, and by how much?  ",medium
+23,"https://www.geeksforgeeks.org/puzzle-choose-the-game-of-rolling-dice/
+",Puzzle: You are risk-averse person. There are Two games are offered to you. ,easy
+24,"https://www.geeksforgeeks.org/puzzle-maximum-pieces-that-can-be-cut-from-a-circle-using-6-straight-lines/
+",PUZZLE:,medium
+25,"https://www.geeksforgeeks.org/puzzle-connect-9-circles-each-arranged-at-center-of-a-matrix-using-3-straight-lines/
+",Consider 9 circles each arranged at the center of cells of a 2-D matrix of shape 3*3. Draw 3 straight lines without removing pen from paper such that each of the 9 circles is in contact with at least one line. ,medium
+26,"https://www.geeksforgeeks.org/maximum-number-of-objects-that-can-be-created-as-per-given-conditions/
+",Given N items of type-1 and M items of type-2. An object can be created from 2 items of type-1 and 1 item of type-2 or 2 items of type-2 and 1 item of type-1 pieces. The task is to find the maximum number of objects that can be created from given number of items of each type.Examples:  ,hard
+27,"https://www.geeksforgeeks.org/puzzle-single-elimination-tournament/
+","In a single-elimination tournament, such as the tennis Grand Slam championships – every losing player is immediately eliminated from the subsequent rounds until a single player is determined. If there are N players at the beginning of the tournament, answer the following questions.",easy
+28,"https://www.geeksforgeeks.org/puzzle-the-circle-of-lights/
+","There is a circle of  N &gt; 2 lights with a switch next to each of them. Each switch can be flipped between two positions, thereby toggling the on/off states of three lights: its own and the two lights adjacent to it. Initially, all the lights are off. Design an algorithm for turning all the lights on by flipping the minimum number of switches.",hard
+29,"https://www.geeksforgeeks.org/puzzle-50-red-marbles-and-50-blue-marbles/
+","Give two boxes B1 and B2 one have 50 red marbles and other have 50 blue marbles. A ball is selected randomly from any of the box and the task is to maximize the probability of selecting a red ball, by reshuffling marbles in both the boxes. ",medium
+30,"https://www.geeksforgeeks.org/the-fox-the-duck-and-a-circular-pond/
+","A Duck that is being chased by a Fox saves itself by sitting at the centre of a circular pond of radius r. The Duck can only fly from land and not able to fly from the water. Furthermore, Fox cannot swim. The speed of the Fox is four times the speed of the Duck. Assuming that the Duck and Fox are perfectly smart, is it possible for the Duck to ever reach the edge of the pond and fly away to its escape from the ground?",hard
+31,"https://www.geeksforgeeks.org/puzzle-the-three-pile-trick/
+","A magician asks a person to select a card from a pack of 27 cards and return it back without showing it back to the magician. After the choice is made, the magician shuffles the pack and deals all the cards face up into three piles, one card to each pile in turn. The person is now asked which pile contains the card. The pile is then placed between the other two piles and without any shuffling, the cards are again distributed again into three piles. The same procedure is repeated again and for the final time the cards are distributed in three piles and the person is asked about the pile containing the card. The magician then names the selected card. Explain the trick. ",hard
+32,"https://www.geeksforgeeks.org/puzzle-four-alternating-knights/
+","There are four knights on a 3 x 3 chessboard. The two white knights are at the two bottom corners, and the two black knights are at the upper two corners of the board. Find the shortest sequence of moves to achieve the final position as shown in the figure or prove that no such sequence exists.",easy
+33,"https://www.geeksforgeeks.org/puzzle-minimum-colors-required-to-color-a-chessboard-with-no-two-given-pair-threatening-each-other/
+",Puzzle:,easy
+34,"https://www.geeksforgeeks.org/minimize-number-of-cuts-required-to-break-n-length-stick-into-n-unit-length-sticks/
+","Given an integer N denoting the length of a given stick, the task is to minimize the time required to split the stick into pieces of unit length, given that, a single cut is possible for any portion of stick at any instance of time.",easy
+35,"https://www.geeksforgeeks.org/maximum-bitwise-and-pair-x-y-from-given-range-such-that-x-and-y-can-be-same/
+","Given a range [L, R], the task is to find a pair (X, Y), not necessarily distinct. Find the maximum possible value of the bitwise AND of the chosen integers."
+36,"https://www.geeksforgeeks.org/find-index-after-traversing-a-permutation-array-of-1-to-n-by-k-steps/
+","Given an integer K and an index array arr[] of length N which contains elements in the range [1, N], the task is to find the index after traversing the array by K steps starting from the index 1."
+37,"https://www.geeksforgeeks.org/average-of-cubes-of-first-n-natural-numbers/
+","Given a positive integer N, the task is to find the average of cubes of first N natural numbers. Examples:  ",easy
+38,"https://www.geeksforgeeks.org/expected-number-of-trials-to-get-n-consecutive-heads/
+",Given a number N. The task is to find the expected number of times a coin must be flipped to get N heads consecutively.,hard
+39,"https://www.geeksforgeeks.org/puzzle-dividing-a-square-into-n-smaller-squares/
+","Puzzle: Find all values of N for which one can dissect a square into N smaller squares, and outline an algorithm for doing such a dissection.",hard
+40,"https://www.geeksforgeeks.org/puzzle-can-a-knight-reach-bottom-from-top-by-visiting-all-squares/
+","Puzzle
+Is there a way for a chess knight to start at the top-left corner from a N x N chessboard, visit all the squares of the board exactly once and end at the lower-right corner.",medium
+41,"https://www.geeksforgeeks.org/puzzle-minimum-time-required-to-make-n-pancakes/
+","Puzzle: You have to make N (≥ 1) pancakes using a skillet that can hold only two pancakes at a time. Each pancake has to be fried on both sides. Frying one side of a pancake takes one minute, regardless of whether one or two pancakes are fried at the same time. What is the minimum amount of time required to fry the pancakes?",easy
+42,"https://www.geeksforgeeks.org/check-if-its-possible-to-make-sum-of-the-array-odd-with-given-operations/
+","Given an array arr[], the task is to check if it is possible to make the sum of array odd such that any two indices i and j can be chosen and arr[i] can be set equal to arr[j] given that i != j. "
+43,"https://www.geeksforgeeks.org/minimum-number-of-moves-required-to-solve-a-jigsaw-assembly-puzzle/
+","Puzzle:
+You are given a jigsaw puzzle that contains n pieces. A “section” of the puzzle is a set of one or more pieces that have been connected to each other. A “move” consists of connecting two sections. Given that initially, all the pieces are separate, then what is the minimum number of moves in which the puzzle can be completed?",easy
+44,"https://www.geeksforgeeks.org/puzzle-transferring-the-tourists/
+","Puzzle: A group of 25 tourists had to cross a wide and deep river with no bridge in sight. They notice two 10-year-old boys playing in a rowboat by the shore. The problem is that the boat is so small, that it can only hold two boys or one tourist. How can the tourists get across the river and leave the boys in joint possession of the boat?",easy
+45,"https://www.geeksforgeeks.org/dividing-the-rectangle-into-n-right-angled-triangles/
+",Puzzle: Find all values of n &gt; 1 for which one can divide a rectangle into n right-angled triangles.
+46,"https://www.geeksforgeeks.org/puzzle-snail-and-wall/
+","Puzzle: A snail wishes to reach a water shore. To do this it must cross a wall which is 30 feet high. It has a time limit of 30 hours to reach atop the wall. The time starts as soon as it starts climbing the wall. However, he faces a problem while climbing. Every hour it climbs the wall 3 feet up, it slides down 2 feet. This occurs every hour. So how many hours will it take for the snail to reach atop the wall?
+",medium
+47,"https://www.geeksforgeeks.org/minimum-number-of-cuts-required-to-pay-salary-from-n-length-gold-bar/
+","Given a gold bar of length N with N equal markings, the task is to find the minimum number of cuts required to pay the salary in N days such that on any ith day the worker has i parts of the gold bar."
+48,"https://www.geeksforgeeks.org/eggs-dropping-puzzle-set-2/
+","Given N eggs and K floors, the task is to find the minimum number of trials needed in the worst case to find the floor below which all floors are safe. A floor is safe if dropping an egg from it does not break the egg. Please refer n eggs and k floors for more insight.",easy
+49,"https://www.geeksforgeeks.org/find-last-two-remaining-elements-after-removing-median-of-any-3-consecutive-elements-repeatedly/
+","Given a sequence A1, A2, A3, … An of distinct integers. The task is to find the last 2 remaining elements after removing the median of any 3 consecutive elements repeatedly from the sequence."
+50,"https://www.geeksforgeeks.org/puzzle-car-and-helium-balloon-motion/
+",Puzzle:,medium
+51,"https://www.geeksforgeeks.org/puzzle-paradox-dragons/
+","Puzzle: There are 3 dragons. One of them always speaks the truth, one always lies and one alternate between truth and lie. A series of conversation takes between Ram and the 3 dragons which lets you identify the nature of each dragon.",hard
+52,"https://www.geeksforgeeks.org/puzzle-9-students-and-red-black-hats/
+","Puzzle: There are 9 IITians in a classroom. A professor enters the room with a bag. He says to them that there are 9 hats inside the bag. The hats are either of red colour or black colour. Further instruction was provided that there is at least one red hat and the number of black hats is greater than that of the red ones. The professor puts the hats on each of the students head and instructs them to find the number of red and black hats. The students are not allowed to look on their own hats or talk to each other or make any sort of communications or any tricks. The professor leaves and returns after 20 minutes looking for the answer, but no answer was provided. He again leaves and gives them an extra 10 minutes to come up with an answer but still, no response was received. He finally gives them the last 5 minutes to figure out the answer and leaves. This time when he returns, everyone was able to come up with the correct answer. Our task is to find what could have been the correct answer and how they came up with it.
+",medium
+53,"https://www.geeksforgeeks.org/puzzle-probability-of-finding-a-job/
+","Puzzle: There is a interview going on and Ram is selected for interview to 3 posts. The total number of candidates appearing for the first, second and the third posts are 3, 4 and 2 respectively. Find the probability of Ram getting at least one job.
+Assume that the probabilities are independent of each other.",easy
+54,"https://www.geeksforgeeks.org/puzzle-how-much-he-had-initially/
+","Puzzle: Rama started on a quest of visiting temples, with few coins in his pockets. As soon as he visits any temple, the money in his pocket gets doubled and on his way out, he donates Rs. 100 to each temple. He visits 4 temples on his quest. After visiting the last temple, his pocket is empty of all the money, so how much money he had initially.
+",easy
+55,"https://www.geeksforgeeks.org/puzzle-king-octopus-and-servants/
+","Puzzle: There was a water kingdom where lived a king octopus with his few servants. The servants either had 6, 7 or 8 legs. It is known that:",easy
+56,"https://www.geeksforgeeks.org/puzzle-how-long-was-he-walking/
+","Puzzle: Ram used to arrive at the railway station every day at 6 pm from work. As soon as Ram arrived at the station, his wife Sita too arrives at the station by car to pick him up. Both drive back home. One day Ram arrived at the station one hour early and thought of taking a walk back to home. He started walking when after covering a specific distance, he meets with Sita. Both drive back home and this time they reached 30 minutes earlier than the usual time. How long has Ram been walking?
+It is known that Sita drove every day at a uniform speed.
+",easy
+57,"https://www.geeksforgeeks.org/puzzle-rope-escape/
+","Puzzle: Raghav is trapped on top of a building and wishes to reach the ground safely. He has with him a piece of rope running to 150 meters of length, a sharp knife. The building is 200 meters high from the ground. Raghav notices two hooks is placed on the side of the building, one at a distance of 200 meters and another at a distance of 100 meters from the ground. Devise a plan for Raghav
+to reach the ground safely using the 150 meters rope, a knife and 2 hooks.
+",medium
+58,"https://www.geeksforgeeks.org/puzzle-8-balls-problem/
+","Puzzle: You are provided with 8 identical balls and a measuring instrument. 7 of the eight balls are equal in weight and one of the eight given balls is defective and weighs less. The task is to find the defective ball in exactly two measurements.
+",easy
+59,"https://www.geeksforgeeks.org/puzzle-100-wrong-statements/
+",Puzzle: There are 100 men in a village. One day they gather at a place and started making statements.,easy
+60,"https://www.geeksforgeeks.org/puzzle-supersonic-bee-and-trains/
+","Puzzle: There are two trains(Train A and Train B) running on the same track towards each other at a speed of 100 km/hr. They enter a tunnel 200 km long at the same time. As soon as they enter, a supersonic bee flying at a rate of 1000 km/hr also enters the tunnel from one side (say Train A side). The bee flies towards the other Train B and as soon as it reaches the train B, it turns back and flies back to the Train A. This way it keeps flying to and fro between the Trains A and B. The trains collide after a certain point of time leading to a massive explosion. The task is to find the total distance travelled by the bee until the collision occurred.",easy
+61,"https://www.geeksforgeeks.org/optimal-strategy-for-a-game-special-gold-coin/
+","Given a row of silver coins among which a special gold coin is present. Two players play the game, and with each move, a player has to remove a coin from either the left or the right end of the row and the player who removes the special coin wins the game. The task is to find the winner of the game.",easy
+62,"https://www.geeksforgeeks.org/puzzle-10-balls-in-5-lines/
+","Puzzle:
+Given are ten balls, the task is to place these 10 balls in five lines such that each line contain exactly 4 balls.",medium
+63,"https://www.geeksforgeeks.org/puzzle-thief-treasure-and-2-doors/
+",Puzzle: ,medium
+64,"https://www.geeksforgeeks.org/puzzle-cat-mice-and-4-boxes/
+",Puzzle:,easy
+65,"https://www.geeksforgeeks.org/time-h-localtime-function-in-c-with-examples/
+",The localtime() function is defined in the time.h header file. The localtime( ) function return the local time of the user i.e time present at the task bar in computer.
+66,"https://www.geeksforgeeks.org/puzzle-cylindrical-glass-and-water-measurement/
+",Suppose you are in an empty closed room with a glass of water without using any measuring tool how will you identify whether the water in the glass is half-filled or less than half-filled or more than half-filled?,easy
+67,"https://www.geeksforgeeks.org/puzzle-six-colored-cube/
+","
+Given six distinct colors, in how many unique ways can a six faced cube be painted such that no two faces have the same color?
+Note: Mixing of colors is not allowed.",medium
+68,"https://www.geeksforgeeks.org/puzzle-divide-a-square-into-5-parts-such-that-4-parts-among-them-are-equal/
+","Puzzle: We have to divide a square into 5 parts such that 4 parts among them are equal. The condition is that even once the pen does not get up.
+Solution: We can solve the above puzzle in the below way, and we have to draw an inscribed circle within the square. In this way, all corner of the square are equal and square divided into 5 parts. Even if we draw a circle then we do not need to get up the pen. Draw a circle like below image:",easy
+69,"https://www.geeksforgeeks.org/puzzle-the-bridge-riddle/
+","Puzzle:
+You are a scientist who works in a lab. You are in the lab and accidentally, you pull the lever with the skull symbol which released the zombies trapped inside the prison of the Lab. The zombies started to come out of prison. You need to get away and safe from them. With you are the janitor, the lab assistant and the old professor who work with you in the lab. So now it’s your responsibility to get them safe as well. ",medium
+70,"https://www.geeksforgeeks.org/rat-and-poisoned-bottle-problem/
+",Given N number of bottles in which one bottle is poisoned. So the task is to find out minimum number of rats required to identify the poisoned bottle. A rat can drink any number of bottles at a time. ,medium
+71,"https://www.geeksforgeeks.org/puzzle-disclosing-secret/
+",Problem Statement: A secret can be told only to 2 persons in 5 minutes. The same person tells to 2 more persons and so on. So How long will take to spread a secret to 768 persons?,easy
+72,"https://www.geeksforgeeks.org/program-to-find-the-last-two-digits-of-xy/
+",The task is to find the last two digits of x^y.,easy
+73,"https://www.geeksforgeeks.org/puzzle-rat-and-poisonous-milk-bottles/
+",You have 4 bottles of milk. One of them is poisonous while the other 3 are non-poisonous. There is a rat which dies exactly after 10 hours of drinking the poisoned bottle. You have a clock that measures time only in hours. Suggest an optimal strategy to identify the poisoned bottle within 24 hours.,easy
+74,"https://www.geeksforgeeks.org/find-the-total-guests-that-are-present-at-the-party/
+","A person hosts a party and invites N guests to it. However, each guest has a condition, that each guest ‘Gi’ only stays at the party if there are at least ‘Pi’ people already at the party, otherwise leaves. The total number of guests N and the number of people each guest needs ‘Pi’ are given as input for each guest. The task is to find the total guests that are present at the party. It is also given that the guests arrive at the party in the order given in the array ‘Pi’",easy
+75,"https://www.geeksforgeeks.org/puzzle-amount-of-rice/
+","A seller has some quantity of rice with him. The seller offered his customer that if he/she buys half of the rice he has, he will give half kg of rice as a discount. The first customer accepts his offer and he purchased half of the rice and get half kg as extra. After selling the rice to the first customer he again makes the same offer for the second customer, and so on. The seller left with no quantity of rice after he made the fifth transaction.",easy
+76,"https://www.geeksforgeeks.org/puzzle-neighbors-in-a-round-table/
+",There are 6 persons seating on a round table in which two individual have the same names. What is the probability that the two same-named individuals will be neighbors?,easy
+77,"https://www.geeksforgeeks.org/puzzle-eliminating-virus-from-a-computer-network/
+","In a network of infinitely many computers, 650 computers got infected with certain virus. The IT support team has access to five different types of antivirus software packages (let us call them A, B, C, D and E) that can work on eliminating this virus. Each of the antivirus software packages ‘X’ can eliminate virus from Xr infected computers if there are at least Xr virus-infected computers in the network when ‘X’ is applied. But it will cause Xnew new virus-free computers in the network to be infected with the virus.   ",hard
+78,"https://www.geeksforgeeks.org/puzzle-toggling-cctv-cameras-in-a-museum/
+","A museum is fitted with 16 surveillance CCTV cameras each of which is switched on or off by a different switch.
+Say, switch 1 controls CCTV camera-1, switch 2 controls CCTV camera-2, …, and switch 16 controls CCTV camera-16.
+Each separate region of the museum is covered by multiple CCTV cameras than required and that configuration can not be changed now.
+For the sake of meeting the limits of data storage without compromising the surveillance of any area in the museum, and due to other constraints, the surveillance manager created a plan to toggle (switch ON or OFF) the cameras at the start of any day as explained below with the help of a 4×4 table of switches 1 to 16: ",easy
+79,"https://www.geeksforgeeks.org/puzzle-number-of-sheets-to-be-turned-so-that-prime-number-has-a-vowel-on-the-other-side/
+",There are five sheets of paper each of which has a whole number on one side and and an alphabet on the other side written on it as shown below. ,easy
+80,"https://www.geeksforgeeks.org/puzzle-can-2-persons-be-with-same-number-of-hairs-on-their-heads/
+","One day Ram and Shyam were searching Google for finding what is the maximum number of hairs on the human head. They found that it is 2, 00, 000. Then Shyam thought a while and suddenly made a statement that there are at least two Bengaluru citizens who have got the exact same number of hairs on their heads. Both of them knew the fact that the population of Bengaluru is 1.23 crores.
+But Ram was still thinking whether Shyam’s statement is correct or not.
+Is Shyam’s statement 100% correct or we need more information to deduce the truth of the statement?",easy
+81,"https://www.geeksforgeeks.org/puzzle-nineteen-pirates-and-the-king/
+","Nineteen pirates (one of them is their leader) were caught by the king one day. But the king heard many stories of spontaneous wit of the pirates’ leader and great and clever escapes that he led in the past and so offered a challenge to the pirates.
+The challenge involves the pirates numbered 1 to 19 to be seated in chairs numbered 1 to 19 around a table but no pirate occupying a matching chair (a matching chair is one that has a number same as the pirate number who sits in it). But they all can rotate in any direction any number of times so that at least some pirates get to sit in matching chairs. The initial position of the pirates is as per the wish of the king (but no pirate will be seated in a matching chair). ",hard
+82,"https://www.geeksforgeeks.org/puzzle-minimum-number-steps-to-weigh-1-kg-rice-with-1gm-weight/
+","There is a bag of rice given to us and we need to get 1 Kilogram of rice from it but we have only a common balance with two pans, some vessels and a 1 gm weight.
+What is the least number of weighs we need to carry out to get 1 Kg of rice?",medium
+83,"https://www.geeksforgeeks.org/puzzle-1000-light-bulbs-switched-on-off-by-1000-persons-passing-by/
+","There are 1000 light bulbs and 1000 persons. All light bulbs are initially off. Person 1 goes flipping light bulb 1, 2, 3, 4, … person 2 then flips 2, 4, 6, 8, … person 3 then 3, 6, 9, … etc until all 1000 persons have done this. What is the status of light bulb 25, 93, 576, 132, 605, 26, 45, 37, 36 after all persons have flipped their respective light bulbs? Is there a general solution to predict the status of a light bulb? How many light bulbs are on after all 1000 persons have gone by? ",medium
+84,"https://www.geeksforgeeks.org/puzzle-heads-or-tails/
+",50 coins are lined up on a table (initially all heads facing upwards). 50 people pass from the coins one by one in the following manner:,medium
+85,"https://www.geeksforgeeks.org/puzzle-minimum-planes-to-go-around-the-world/
+","On an Island, there is an airport that has an unlimited number of identical air-planes. Each air-plane has a fuel capacity to allow it to fly exactly 1/2 way around the world, along a great circle. The planes have the ability to refuel in flight without loss of speed or spillage of fuel. Though the fuel is unlimited, the island is the only source of fuel. You can ignore the time and fuel consumption of refuelling.
+What is the minimum number of air-planes required to get one air plane all the way around the world assuming that all of the air planes must return safely to the airport?",medium
+86,"https://www.geeksforgeeks.org/tcs-digital-puzzle-lateral-thinking-2/
+",Lateral thinking is the most interesting test module of tcs digital hiring process.,medium
+87,"https://www.geeksforgeeks.org/tcs-digital-puzzle-lateral-thinking/
+","
+Lateral thinking is the most interesting test module of tcs digital hiring process.",medium
+88,"https://www.geeksforgeeks.org/puzzle-growing-water-lilly/
+","Question: In the middle of a round pool lies a beautiful water lily. The water lily doubles in size every day. After exactly 20 days, the lily will cover the complete pool. After how many days will the water lily cover half of the pool?",easy
+89,"https://www.geeksforgeeks.org/puzzle-cut-blue-painted-cube/
+","A solid, n-inch cube of wood is coated with blue paint on all six sides.",medium
+90,"https://www.geeksforgeeks.org/puzzle-minimum-distance-for-lizard/
+","A lizard is present on one corner of cube, It wants to reach diagonally opposite corner of cube. You have to calculate minimum distance lizard has to cover to reach its destination.",easy
+91,"https://www.geeksforgeeks.org/area-of-squares-formed-by-joining-mid-points-repeatedly/
+",Given a square having a side of length L. Another square form inside the first square by joining midpoint of the side of the first square. Now 3rd square is form inside 2nd one by joining midpoints of the side of the 2nd square and so on. You have 10 squares inside each other. and you are given side length of largest square.you have to find the area of these 10 squares.,medium
+92,"https://www.geeksforgeeks.org/puzzle-find-the-probability-of-distance-in-a-square/
+","Given 6 point inside a square of side 10cm, what is the probability that their exist at least two points whose distance is less than 8cm?",easy
+93,"https://www.geeksforgeeks.org/puzzle-is-it-raining/
+","A Geek is about to get a plane to Hyderabad. Geek wants to know if it’s raining. Geek calls 3 random friends staying at Hyderabad to ask this question. Each friend has a 2/3 chance of telling the truth and 1/3 chance of lying. All the three friends gave the response as “Yes, it is Raining”. ",easy
+94,"https://www.geeksforgeeks.org/puzzle-guess-the-total-number-of-coins/
+","There are 10 robbers named as’A’, ‘B’, ‘C’, ‘D’, ‘E’, ‘F’, ‘G’, ‘H’, ‘I’, ‘J’ they stole some coins from a bank and they decided to divide these coins equally among themselves. So they divide the coins into 10 parts but the last robber ‘J’ got 1 coin less than other robbers. So the remaining 9 robbers murder ‘J’. They again decided to divide the coins into 9 parts. But this time again the last robber ‘I’ got 1 less coin than other robbers. So again the remaining 8 robbers murder ‘I’ and try to divide all coins in between remaining 8 robbers. But again this time ‘H’ got one less coin than the other. Now, this process goes on until 1 robber left i.e. is ‘A’. After that ‘A’ take all the coins and run away. Now you have to guess the total number of coins. ",medium
+95,"https://www.geeksforgeeks.org/puzzle-selling-chocolates/
+","Ram and Shyam were selling chocolates. Ram was selling at the rate of 2 pieces/rupee and Shyam was selling at the rate of 3 pieces/rupee. Now both of them decided that they will mix their chocolates and sell them at the rate of 5 pieces for 2 rupees.
+Now after selling whole chocolates, they found that the total collection is rupees 7 less than what they would get by selling them separately.",easy
+96,"https://www.geeksforgeeks.org/puzzle-head-shot/
+","Geek got kidnapped by a gangster. The Gangster puts two bullets in consecutive order in an empty six-round revolver, spins it, points it at her head and shoots. She is still alive.",medium
+97,"https://www.geeksforgeeks.org/puzzle-pair-of-socks/
+",There are 10 black socks and 10 white socks in a drawer. Socks of the same color are identical but not allowed to look into the drawer while taking out socks.,easy
+98,"https://www.geeksforgeeks.org/puzzle-data-recovery-problem/
+","Suppose you have three pen drives P1, P2 and P3 each having 1GB capacity. You have also 3GB data. You have to divide these data into P1, P2 and P3 such that if any one of the pen drive among P1, P2, P3 got crashed than you should be able to recover all the data from remaining two pen drives.",hard
+99,"https://www.geeksforgeeks.org/puzzle-toll-and-cake/
+","Ishita is on the way to visit her Grandmother, who lives at the end of the valley. It’s her birthday, and she wants to give her some cakes made by her. Ishita needs to cross 5 bridges to reach her Grandmother’s house. There is a toll for every bridge. The toll or tax for crossing the bridge is half of the cakes she is carrying with her. Also at each bridge she gets one cake from them. How many cakes should Ishita carry with her to make sure that she arrives at Grandmother’s house with exactly 2 cakes?",medium
+100,"https://www.geeksforgeeks.org/puzzle-bag-of-coins/
+","Puzzle:
+Ishita has 10 bags full of coins. Each bag contains 1000 coins. But one bag is full of forgeries, and she just can’t recall which one. She does know that genuine coins weigh 1 gram, but forgeries weigh 1.1 grams. To hide the fact that she can’t recall which bag contains forgeries, she needs your help. How can she identify the bag with the forgeries with just one weighing?
+",medium
+101,"https://www.geeksforgeeks.org/puzzle-best-time-to-escape/
+","Once there was a king. The king wanted to protect his kingdom from the outside world. So he made a rule that neither any citizen of the kingdom can go to the outer world nor anyone from outside can enter his kingdom. There was a common bridge between the kingdom and the outside world. The guard was assigned on the gates of the kingdom which was linked to the bridge. If anyone tried to go out of the kingdom, he/she will be killed. And if anyone tried to come inside the kingdom, the guards would sent him/her back. It takes 8 minutes to cross the bridge.
+The guard was allowed to take a 5 minutes break. One woman was able to cross the bridge and move to the outside world. How did she do that?",easy
+102,"https://www.geeksforgeeks.org/puzzle-chaos-in-the-bus/
+",There is a bus with 100 labelled seats (labelled from 1 to 100). There are 100 persons standing in a queue. Persons are also labelled from 1 to 100.,medium
+103,"https://www.geeksforgeeks.org/puzzle-100-cows-and-milk/
+","A milkman has 100 cows number from 1 to 100. Every cow gives milk according to their numbers i.e i’th cow gives i litre milk. Milkman has 10 sons and he wants to divide his cows among his 10 sons so that every son should get an equal amount of milk, the task is to help him to know about the division of these cows among the sons.",medium
+104,"https://www.geeksforgeeks.org/puzzle-blind-man-and-pills/
+",Puzzle: A blind man is alone on a deserted island. He has two blue pills and two red pills. He must take exactly one red pill and one blue pill or he will die. ,easy
+105,"https://www.geeksforgeeks.org/egg-dropping-puzzle-with-2-eggs-and-k-floors/
+","Given 2 eggs and k floors, find the minimum number of trials needed in worst case. This problem is a specific case of n eggs and k floors.",medium
+106,"https://www.geeksforgeeks.org/puzzle-one-mile-on-the-globe-mcq/
+","Q. Find out the number of points on the globe (Earth) where if we move one mile south, then one mile east and finally one mile north, we arrive at the starting point.",hard
+107,"https://www.geeksforgeeks.org/puzzle-gods-mercy-graduation/
+","There is a school on the foothills of Himalayas. This Gurukul admits only 100 students every year and these are entitled to be the best in knowledge, health and spirit. A specialty about this Gurukul is that, despite being a secret well hidden from the muggles (non-sorcerers), it’s a renowned institution and well known amongst sorcerers and priests. The school is famous in these communities for “God’s Mercy Graduation”. It is believed that every year there comes a time, starting in the second week of November, when the skies turn red and there are exactly 100 days left to graduation. It’s an overly tensed time for the students of the institution. All students are preparing for the world’s toughest and the most rigorous examination. God comes one night and puts a seal at the back of the head of some meritorious students and these students are exempted from giving the examination and have to leave the school. ",medium
+108,"https://www.geeksforgeeks.org/puzzle-bilateral-conversations/
+","There are n students in a class, each in possession of a different personality attribute. As they are new in the school, so they want to know about each other. To help the students, the teacher decides to conduct an activity. The rule for the activity is that the students will share the personality attributes of each other through a series of bilateral conversations (e.g., via a telephone). Assume that in every conversation both parties exchange all the personality attributes they know at the time. What is the minimum number of conversations they need to guarantee that everyone of them gets all the personality attributes?",medium
+109,"https://www.geeksforgeeks.org/game-brussels-sprouts-puzzle/
+","Given n number of spots, and two players. Players need to connect any two spots without intersecting any of the drawn line, the player who cannot give a move, loses. Determine who will win player1 or player2. ",easy
+110,"https://www.geeksforgeeks.org/number-pentagons-hexagons-football/
+","Given a standard football, regular hexagons and pentagons are drawn on it as shown in the picture. Find out the number of hexagons and pentagons.",hard
+111,"https://www.geeksforgeeks.org/survival/
+","You are a poor person in an island. There is only one shop in this island, this shop is open on all days of the week except for Sunday. Consider following constraints:",easy
+112,"https://www.geeksforgeeks.org/puzzle-four-glasses-blindfold/
+","Puzzle: Four glasses are placed on the corners of a square plate which can rotate about its center. Glasses are either upright (up) or upside-down (down) in no known number.
+A person is made blindfold and seated next to the rotating plate. The blindfold person has to re-arrange the glasses so that they are either all up or all down which will be signalled by the ringing of a bell.
+The glasses can be rearranged in turns, following the given rules: ",hard
+113,"https://www.geeksforgeeks.org/puzzle-upside-glasses/
+","There are n glasses on the table, all standing upside down. In one move, you are allowed to turn over exactly n – 1 of them. Determine all values of n for which all the glasses can be turned up in the minimum number of moves.",medium
+114,"https://www.geeksforgeeks.org/puzzle-the-symbols/
+","There are two gates. One goes to hell and the other goes to heaven. The gatekeeper asks a puzzle to Sahil in order to decide which gate he should open for him. Obviously if Sahil answers the puzzle correct , the gate to heaven will be opened else the gate to hell. According to the problem Sahil is given n consecutive integers from 1 to n ,which are written in a row. He has to put signs “+” and “-” in front of them so that the expression obtained is equal to 0 or, if the task is impossible to do,then Sahil should tell the gatekeeper “No solution exists for the given problem “.The gatekeeper expects Sahil to find his answer in minimum time using an efficient approach rather than examining all possible ways to place the signs. Sahil comes to you considering you as his friend. Would you help him out to get to the solution ?",hard
+115,"https://www.geeksforgeeks.org/puzzle-the-neighbour/
+",Sahil has got a challenge problem from his friend Akhil. Sahil has to find all values of n for which one can fill an n × n table with +’s and -’s (one per cell) so that every cell has exactly one neighbor with the opposite sign. Two cells are considered neighbors if they are either in the same row or the same column. Can you help out Sahil to find such values of n ?,hard
+116,"https://www.geeksforgeeks.org/puzzle-message-spreading/
+","There are n students in a class, each in possession of a different funny story. As the students were getting bored in the class, they decided to come up with a game so that they can pass their time. They want to share the funny stories with each other by sending electronic messages.  Assume that a sender includes all the funny stories he or she knows at the time the message is sent and that a message may only have one addressee. What is the minimum number of messages they need to send to guarantee that everyone of them gets all the funny stories?",medium
+117,"https://www.geeksforgeeks.org/puzzle-two-brothers-and-facebook/
+","Sahil and Ritik are brothers. One day they were discussing who is smarter. But gradually the discussion turned into an argument. Mother came and tried to handle the situation. She gave them a problem to solve and the one who will solve the problem first, would be considered smarter than the other. The problem is :
+In a group of 6 people, you might find some people are friends on Facebook, or you might find that no one is friend on Facebook. The brothers are supposed to prove that there is always a group of 3 people where either :
+– All 3 people are mutual friends on Facebook.
+– All 3 people are strangers (i.e, no one is friend on Facebook).
+  Can you help the brothers to reach to the solution ?",hard
+118,"https://www.geeksforgeeks.org/puzzle-the-counters-and-board/
+","Given 2n counters where n &gt; 1. You have to place these 2n counters on an n × n board so that no more than
+two counters are in the same row, column, or diagonal.",medium
+119,"https://www.geeksforgeeks.org/the-remaining-numbers/
+","Sahil and Amrit are friends. One day Amrit comes to Sahil’s home to take him outside so that they can play together. But Sahil denies saying that he will not play unless he reaches to the solution of the problem he is stucked with. So, Amrit decides to help him out .The problem is, given the first 50 natural numbers i.e., 1 , 2 , . . . . . . . 49 , 50 which are written on a board. Select two of the numbers on the board, say a and b , write the absolute value of their difference |a – b| on the board and then erase both a and b. Apply the above operation 49 times. Determine all possible values of the remaining number that can be obtained in this manner.",hard
+120,"https://www.geeksforgeeks.org/puzzle-handshake/
+","A couple invites n – 1 other couples to dinner. Once everyone arrives, each person shakes hands with everyone he doesn’t know. Then, the host asks everyone how many hands they shook and each person replies with a different number. Assuming that everyone knows his or her own spouse, how many hands did the hostess shake?",medium
+121,"https://www.geeksforgeeks.org/puzzle-chances-second-boy-child-problem/
+","
+James and Calie are a married couple.
+They have two children, one of the child is a boy. Assume that the probability of each gender is 1/2.
+What is the probability that the other child is also a boy?",easy
+122,"https://www.geeksforgeeks.org/puzzle-divide-crescent-moon-6-parts-just-two-straight-lines/
+","Puzzle: We have to divide crescent moon in 6 parts, parts size does not matter. Only we have to cut the crescent moon in a way that it should divided into 6 parts but by using only two straight lines?",easy
+123,"https://www.geeksforgeeks.org/puzzle-height-building/
+","There is man on the terrace of a building and he wants to find the height of the building. Man wears a watch only and does not have any instruments to measure anything. There are also some stones on the terrace.
+How can he find the height of the building from terrace ?",easy
+124,"https://www.geeksforgeeks.org/container-with-most-water/
+","Given n non-negative integers where each represents a point at coordinate . ‘ n ‘ vertical lines are drawn such that the two endpoints of line i is at and . Find two lines, which together with x-axis forms a container, such that the container contains the most water.The program should return an integer which corresponds to the maximum area of water that can be contained (maximum area instead of maximum volume sounds weird but this is the 2D plane we are working with for simplicity).",medium
+125,"https://www.geeksforgeeks.org/puzzle-divide-square-land-among-4-sons/
+",There is an old man and he has four sons. The old man is in critical situation and his last wish is to divide his square land into 4 equal parts but according to some rules. Rules and the image of land is provided below: ,medium
+126,"https://www.geeksforgeeks.org/puzzle-3-glass-10-coins/
+",Suppose we have 3 glasses and 10 coins. The problem is to place odd number of coins in each glass i.e. each glass should contain coins and the number of coins in each glass must be odd and total coins which will be used must be equal to 10.,medium
+127,"https://www.geeksforgeeks.org/puzzle-magic-alphabets/
+","
+1. Which letter replaces the “?”:
+   L : O
+   R : I
+   E : V
+   M : ?
+",medium
+128,"https://www.geeksforgeeks.org/puzzle-3-cuts-cut-round-cake-8-equal-pieces/
+",Puzzle: You have a birthday cake and have to cut it into 8 equal pieces by making 3 cuts only. How do you do it?,medium
+129,"https://www.geeksforgeeks.org/find-time-hour-minute-hands-superimpose/
+","This puzzle is an extension of the famous interview problem, find angle between hour and minute hand at any given time. The questions asks us to find the time when they both superimpose.",medium
+130,"https://www.geeksforgeeks.org/puzzle-haunted-house-escape/
+","Two friends Ram and Shyam were travelling through a forest. They were hungry and it was late at night. They were looking for shelter and after a long journey they found a haunted house. They decided to stay there and leave in the morning. There was no light and electricity and also it was raining heavily at night. They took some photographs of the house they stayed in and slept.
+The very next morning both the friends woke up and were keen looking on the photographs. They found a ghost like figure in one picture. They decided to leave in a hurry but to their surprise they found themselves locked up in the house. There were three exit paths before them and three ghosts before them. Each ghost will ask question and upon providing proper solution to any 1 question one is allowed to escape from the house.",medium
+131,"https://www.geeksforgeeks.org/puzzle-random-seating/
+","People are waiting in line to board a 100-seat airplane. Ajay is the first person in the line. Ajay gets on the plane but he forgets his seat number, so he picks a seat at random. After that, each person who gets on the plane sits in his assigned seat if it’s available otherwise chooses an open seat at random to sit in. The flight is full and you are last in line. What is the probability that you get to sit in your assigned seat?",hard
+132,"https://www.geeksforgeeks.org/puzzle-killed-man-bird-train-move-arrows/
+","Who killed the man? : Rohan was found dead in the company. The police arrived at the scene and narrowed down four suspects. The name of the four suspects are James, Diya, Alice and Lopa. While dying, Rohan had written some letters with his blood. The police found the word written on the ground near Rohan. The word was kbnft. The police was able to break the code and found the murderer. How did the police found the murderer?
+Solution:
+The police noticed that
+k-1 character = J
+b-1 character = A
+n-1 character = M
+f-1 character = E
+t-1 character = S
+So, Police was able to found the murderer and arrested James.
+
+Bird and the Train : The distance between Station Atena and station Barcena is 84 miles. A train starts from Atena towards Barcena. A bird start at the same time from Barcena straight towards the moving train. On reaching the train, it instantaneously turns back and returns to Barcena. The bird makes these journeys from Barcena to the train and back to Barcena continuously till the train reaches Barcena. The bird finally returns to Barcena and rests. Calculate the total distance in miles the bird travels. The bird flies at 80 miles/hour and the speed of the train is 60 miles per hour.",easy
+133,"https://www.geeksforgeeks.org/puzzle-killed-rohan/
+","Rohan bought a new house. Everything in it was state of the art. The refrigerator was stainless steel, ovens were electric, even the windows were built to only open from them inside. Rohan planned a small get-together with his friends at his new house. He went to the store and bought some steaks, wine, and other things that he saw fit. He invited John, Mike and Marry. They talked about sports, news, and gossiped about people in town. After a while, Mike started to get a little tipsy and was getting a little rude. John politely asked him to settle down, but Mike got furious and tried to fight. After quite a brawl, Rohan got a taxi for Mike and everyone left. The same day at 8:00 P.M, police got a call that Rohan had been murdered. When the police arrived at the scene, they found Mike and Marry. The police officer decided to question them both at the station.
+When the officer questioned Mike, he said: “I was talking to Marry on the phone when i told her i should go and apologize to Rohan. She said that she should come with me in case things got heated again, and i said that was fine. I got there about ten minutes after Marry did, and i noticed that the front door was locked.I decided to look through a window to see if they were there, when i saw Marry, blood soaked, tossing a knife into the sink. I quickly opened the window, crawled through and called the police. Marry killed Rohan”.
+When the officer questioned Marry, she said “Mike called me and told me to meet him at Rohan’s house, so that he could  apologize about our get together. I got there about ten minutes faster than Mike, so i decided to wait in the car for him . After a while, i got bored so i decided to go in and tell Rohan what was going to happen. I noticed the door was wide open, and i thought that was strange because Rohan is a very nervous man. So, i rang the doorbell, walked in, and locked the door.I saw Rohan lying dead on the floor. I was about to call the police when i saw Mike in the other room saying that i killed Rohan, and that he had called the police”. After investigating the crime scene, office found the murderer.
+Who was the murderer?",easy
+134,"https://www.geeksforgeeks.org/puzzle-maximum-number-kings-chessboard-without-check/
+","Prerequisite – The Pigeonhole Principle
+Problem statement – Given a 8×8 chessboard, figure out the maximum number of kings that can be placed on the chessboard so that no two kings attack each other, i.e., none of the kings is under check. A king can move only one step at a time any direction on the chessboard (horizontally, vertically and diagonally).",easy
+135,"https://www.geeksforgeeks.org/puzzle-help-women-cross-river/
+",Puzzle 1,easy
+136,"https://www.geeksforgeeks.org/puzzle-water-jug-problem/
+","We have two water jugs, one measures 4 Gallons (4G) while the other measure 9 Gallons (9G). But there is no measuring label mentioned on either of these two jugs i.e. we cannot know the exact amount filled in the jug. Now, assuming there is an infinite amount of water supply, can we measure all 1G, 2G, 3G…….. upto 9G using these unmarked jugs.
+Hint: We can empty the jugs, and transfer water from one jug to other.",medium
+137,"https://www.geeksforgeeks.org/puzzle-pizza-trouble/
+","Rachel and Ross are about to eat pizzas. Apparently, both of them are hungry and have a huge appetite. So Ross brings 5 pizzas while Rachel brings 3 pizzas. Each pizza has six slices in total. They’re about to sit together and eat when suddenly Joey turns up. Joey agrees to give them money in return for food. So the three of them divide the 8 pizzas(i.e. 48 slices) equally and eat it. Joey has $8 in cash.
+Being weak in maths he decides to pay Rachel and Ross equally i.e. $4 each. Ross vehemently objects to it. Help Joey divide the 8$ amongst the two of them fairly.",medium
+138,"https://www.geeksforgeeks.org/puzzle-thats-impossible/
+","Puzzle 1: Rahul’s code did not pass all the test cases. As a result he’s been sentenced to Geeksville prison. The Geeks community is considerate towards its prisoners and sets them free if they solve a particular riddle. Geeks guard asks the following question to Rahul:
+If I add 7 to a number I get 46. However, if I subtract 7 I get 30. The Geeks guard says :
+I Know that I am correct. Tell me how is it possible??
+Help Rahul get out of the prison.
+Hint: Think a bit about number systems",hard
+139,"https://www.geeksforgeeks.org/puzzle-six-matches-right-foot-forward/
+","THE SIX MATCHES : Shown in the sketch are six matchsticks:
+",easy
+140,"https://www.geeksforgeeks.org/puzzle-mathematics-operation/
+",Question 1: Balance the equation 101 – 102 = 1 by putting some operators in it.,easy
+141,"https://www.geeksforgeeks.org/puzzle-egg-vendor-eggs/
+","Rasool, the man who delivers eggs to my home everyday, did not turn up one day. So when he came the next morning I demanded an explanation from him. He told me the following story:
+The previous morning when he just came out of the house carrying a basket full of eggs on his head to start his daily rounds and stepped on to the street, a car going full speed brushed against him and knocked down his basket destroying all the eggs. The driver, however, a thorough gentleman admitted his responsibility and offered to compensate him for damages. But Rasool could not remember the exact number of eggs he had, but he estimated the number at between 50 and 100. He was also able to tell the gentleman that if the eggs were counted by 2’s and 3’s at a time, none would be left, but if counted by 5’s at a time, 3 would remain, and that he sold the eggs at 5O paise a piece. The gentleman made some quick calculations and paid Rasool adequately.
+How much did the gentleman pay Rasool?",easy
+142,"https://www.geeksforgeeks.org/puzzle-something-marmalade-number-game/
+","Puzzle | Something for the Marmalade : A little girl I know sells oranges from door to door. One day while on her rounds she sold ½  an orange more than half her oranges to the first customer. To the second customer she sold ½  an orange more than half of the remainder and to the third and the last customer she sold ½  an orange more than half she now had, leaving her none.
+Can you tell the number of oranges she originally had? Oh, by the way, she never had to cut an orange.",medium
+143,"https://www.geeksforgeeks.org/puzzle-legs/
+","You are standing in one of the biggest palaces in the world “Hofburg Palace, Vienna”. In palace, five commando are staying. Each commando has been allotted five big rooms and each room contains five huge tigers. Each huge tiger has five small tigers.
+How many legs are there in the Palace ?
+
+Solution : 3012
+Explanation : We all know a tiger has 4 legs.",medium
+144,"https://www.geeksforgeeks.org/puzzle-draw-4-straight-line-33-matrix-9-dots/
+","You have given 9 dots in the form of 2d matrix 3 * 3. Your task is to draw four straight lines without lifting the pen and no dot should be left untouched.
+How will you solve this task?
+
+
+Solution:
+ start from (A) upper corner of the right side to (B) bottom corner of the left side
+",medium
+145,"https://www.geeksforgeeks.org/puzzle-river-crossing/
+","Aside from the river, there is 1 policeman, 1 robber, 1 blond haired woman, and her 2 children and 1 red-haired woman and her 2 children. There is a boat having a carrying capacity of a maximum of 2 people. Only adults can sail but not the kids. Please help all people to move across the river, knowing that if the policeman is absent, the robber will kill all people there. If the blond haired woman is absent, the red-haired woman will beat the blond haired woman’s children (and vice versa).",hard
+146,"https://www.geeksforgeeks.org/puzzle-fill-brackets-30/
+","( ) + ( ) + ( ) + ( ) + ( ) = 30
+This is what you have for equation and following are the numbers that you can use to fill in the brackets:
+ 1, 3, 5, 7, 9, 11, 13 and 15.
+You can repeat the no. if required. The resulting sum should be 30.
+
+Solution: The main issue here is that an addition of odd numbers for odd number of times will result in an odd number. So, in no way will you get an even number like 30 by adding these odd numbers but we can apply other mathematical operations inside brackets and get the answer.",easy
+147,"https://www.geeksforgeeks.org/puzzle-blow-hot-blow-cold/
+",We know that 0°C is the same as 32°F. It is also a known fact that 100°C equals 212°F. But there is a temperature that gives the same reading on both Centigrade and Fahrenheit scales. Can you calculate this temperature?,easy
+148,"https://www.geeksforgeeks.org/puzzle-farmer-goat-wolf-cabbage/
+","There is a farmer who wishes to cross a river but he is not alone. He also has a goat, a wolf, and a cabbage along with him. There is only one boat available which can support the farmer and either of the goat, wolf or the cabbage. So at a time, the boat can have only two objects (farmer and one other).
+But the problem is, if the goat and wolf are left alone (either in the boat or onshore), the wolf will eat the goat. Similarly, if the Goat and cabbage are left alone, then goat will eat the cabbage. The farmer wants to cross the river with all three of his belongings: goat, wolf, and cabbage.
+What strategy he should use to do so?",easy
+149,"https://www.geeksforgeeks.org/puzzle-gift-box/
+","Three identical boxes are kept in front of you but only one of them has a GIFT inside. Each Box is labeled with a statement  but only one of the statement is true
+
+Box 1 says the GIFT in this Box.
+Box 2 says the GIFT not in this Box.
+Box 3 says the GIFT not in Box 1.
+Can you identify which Box has GIFT and which statement is true ?
+
+Solution: Gift is in Box no. 2. Statement on Box no. 3 is true.
+Explanation:
+Analyze all statements one by one. ",easy
+150,"https://www.geeksforgeeks.org/puzzle-three-thief-crossing-river/
+","Three Thief need to cross  a river. Each thief has certain amount of stolen gold coins kept in his bag.
+Thief A has 1000 gold coins
+Thief B has 700 gold coins
+thief C has  300 gold coins ",hard
+151,"https://www.geeksforgeeks.org/puzzle-david-goliath/
+","David and Goliath live on an island Geeksland. One day they both start fighting over an algorithm and realize both of them cannot live together. They want to kill each other. Geeksland has seven poisoned wells, numbered from 1 to 7. If you drink from a well, you can only save yourself by drinking from a higher numbered well.
+For example:
+If you drink water from well number 3 and follow it up by drinking water from any one of wells 4,5,6 or 7, it acts as anti-venom and you are saved.
+Well 7 is located at the top of Geeks mountain. Only Goliath is able to reach well number 7. This means David can access wells 1-6 and Goliath has access to wells 1-7.
+They decide that to resolve this issue each of them will bring a glass of water. They will exchange their glasses and drink the water. After the duel, David lives and Goliath dies.
+What strategy did David use to survive?
+HINT: Think not only outside the box but outside the island.
+
+Solution: Goliath knew that David cannot reach well number 7. So he would get water from well 6 or 7 for David. As a result, he thinks David would die.
+David knew that no matter from which well he gives the water, Goliath will go and drink water from well 7 and live.
+The problem statement clearly mentions that both of them live on an island.
+So, David got sea water for Goliath and before  duel drank water from well number 1. When they exchanged glasses and drank water, Goliath rushed to well 7 and drank poison from it, thinking that it would cure the poison he just drank (but he drank sea water), so Goliath died.
+David on the other hand already had poison from well 1 so what Goliath gave him effectively cured him. So he lived.",hard
+152,"https://www.geeksforgeeks.org/puzzle-find-cat/
+","A cat is hiding in one of the five boxes. The boxes are numbered one to five and are all sitting in a row, lined up in order. Each night, the sneaky little cat hides in an adjacent box, exactly one box away from the box it’s in during the day. Each morning, you can open exactly one box to see if the cat is in there. Can you say with certainty that you will find the cat ? How can you go about this hide and seek game to ensure you find the cat?",hard
+153,"https://www.geeksforgeeks.org/puzzle-truth-lie/
+","There are two tribes, “Lie tribe” and “Truth Tribe”. “Lie tribe”, as per the name, always lie and “Truth tribe” always speak the truth. You meet three of the persons from these tribes and ask the first person: “Which tribe do you belong to ?”. He replies something in his language which you don’t understand. Second person translates to you that, he is saying that he belongs to the “Lie Tribe”. Third person says that second person is lying.
+Which tribe does the third person belong to?",medium
+154,"https://www.geeksforgeeks.org/puzzle-black-white-balls/
+","You have 20 white and 13 black balls in a bag. You pull out 2 balls one after another. If the balls are of same color, then you replace them with a white ball – but if they are of different color, you replace them with a black ball. Once you take out the balls, you do not put them back in the bag – so the balls keep reducing. What would be the color of the last ball remaining in the bag.",hard
+155,"https://www.geeksforgeeks.org/puzzle-luxury-cars/
+","A father wants to divide his 17 luxury cars among his three sons. According to the father, the oldest son should get half of the luxury cars, the middle son should get one third of the luxury cars and the youngest son should get one ninth of the luxury cars. When the father died, his sons were not able to divide the luxury cars as the result was coming in fractions. As the sons were fighting on how to divide the luxury cars, a traveling mathematician driving by his luxury car came and heard their problem. He proposed a solution with which all the sons got their share in the property without destroying any car.
+What was the advice given by the traveling mathematician and how the group of luxury cars was divided?",medium
+156,"https://www.geeksforgeeks.org/puzzle-pirates-gems/
+","Seven pirates attacked the British ship and looted some rare gems from them. They decided to rest for some time and then divide the gems later. While everyone was resting, two pirates wake up and planned to divide gems equally between the two. When they divided gems equally, one gem was left. So, they decided to wake up the third pirate and divide among three, but alas again one gem was left. They decide to wake up the fourth pirate to divide the gems and again one gem was left. The same happened again with the fifth and sixth. Finally, they woke up the 7th pirate and this time the gems were divided equally.
+How many minimum gems did they stole in total ?",medium
+157,"https://www.geeksforgeeks.org/puzzle-square-right-angles-ladder/
+",Puzzle 1 : Square and Right angles ,easy
+158,"https://www.geeksforgeeks.org/puzzle-three-aliens-riddle/
+","There are 3 aliens, namely A, B and C. You Know A always tells the truth, B will always lie and C will just pick a random answer (truth / lie). You can ask only 3 Yes or No questions to them. They will answer your question in code-word ‘OLO’ or ‘UZU’, which means ‘Yes’ or ‘No’ – but you don’t know which one means which.
+What will be your questions to identify each alien ?
+ Solution : 
+Please follow the links given below to understand the answer clearly.
+ Source : 
+1) www.dailymail.co.uk
+2) Youtube Link",easy
+159,"https://www.geeksforgeeks.org/puzzle-words-without-a/
+","In interview, the interviewer asked, tell me the name of 30 words that don’t have the alphabet “a” in them in 30 seconds?",medium
+160,"https://www.geeksforgeeks.org/puzzle-gun-missile-robot/
+","There are three people (Ajay, Bhuvi and Chandu), one of them is a Gun, one a missile, and one a robot. The Gun always tells the truth, the missile always lies, and the robot can either lie or tell the truth.
+Statements :
+Ajay   : “Chandu is a missile.”
+Bhuvi  : “Ajay is a Gun.”
+Chandu : “I am the robot.”
+Find out the Gun, the missile and the robot?",medium
+161,"https://www.geeksforgeeks.org/puzzle-brothers-sisters/
+","There is a family, which has seven children. In this family, each boy has as many sisters as brothers and each of the girl has twice as many brothers as sisters. Now the question is, in this family how many brothers and sisters are there ?",easy
+162,"https://www.geeksforgeeks.org/puzzle-human-zombie/
+","This is a problem in which 4 people are their s1, s2, s3, s4 and there is a Bridge.These 4 people came to know that zombie will going to attack them after 17 minutes.Now the situation is like there is a lantern and at a time at most 2 people can cross the bridge but only with lantern and now here are the time that each person takes to cross bridge:",medium
+163,"https://www.geeksforgeeks.org/puzzle-marriage-party/
+","3 types of people  go to a marriage party.
+
+Type 1 people : 1 man eats in 4 plates.
+Type 2 people : 1 man eats in 2 plates.
+Type 3 people : 4 men eat in 1 plate.
+
+You are given that exactly 100 people go to the party and there are exactly 100 plates. So you have to calculate how many people of type 1, type 2 and type 3 will go to the party. Whereby the condition is all the 100 plates should be consumed by 100 people. And no plate will remaining after the party.",medium
+164,"https://www.geeksforgeeks.org/puzzle-women-murder/
+","A woman was killed when she went to withdraw money from the bank. The suspects are Honey, Maicle, Jason, Janos, and Sofia. A calendar near the woman has 6, 4, 9, 10, 11 written in blood. Who is the killer?
+Solution :-
+Jason
+The numbers on calendar represented the respective months of the year.
+So,
+6 = June
+4 = April
+9 = September
+10 = October
+11 = November",hard
+165,"https://www.geeksforgeeks.org/puzzle-mislabeled-jars/
+","Puzzle: There are 3 jars, namely, A, B, C. All of them are mislabeled. Following are the labels of each of the jars:",easy
+166,"https://www.geeksforgeeks.org/puzzle-pot-beans/
+","A pot contains 75 white beans and 150 black ones. Next to the pot is a large pile of black beans. A somewhat demented cook removes the beans from the pot, one at a time, according to the following strange rule:
+He removes two beans from the pot at random. If atleast one of the beans is black, he places it on the bean pile and drops the other bean, no matter what color, back in the pot.
+If both beans are white, on the other hand, he discards both of them and removes one black bean from the pile and drops it in the pot.
+At each turn of this procedure, the pot has one less bean in it. Eventually, just one bean is left in the pot. What color is it?
+Solution :-
+White
+The cook removes the white beans two at a time, and there is an odd number of them. When the cook gets to the last white bean and picks it up along with a black bean, the white one always goes back into the pot.",hard
+167,"https://www.geeksforgeeks.org/puzzle-probability-truck-passing/
+",The probability of a truck passing a certain intersection in a 20 minute windows is 0.9. What is the probability of a truck passing the intersection in a 5 minute window? (Assuming a constant probability throughout),hard
+168,"https://www.geeksforgeeks.org/puzzle-who-killed-him/
+","A rich man was murdered on Friday afternoon. The police was called for the investigation. Police identified five suspects. At the time of the murder, there was the butler, the cook, the maid, the gardener and the wife. All suspects gave the explanations of what everyone was doing at the house during the day of the murder.
+Butler: I was fixing the table.
+Cook: I was cooking breakfast.
+Maid: I was washing the dishes.
+Gardener: I was planting flowers.
+Wife : I was watching TV.
+Without wasting the time, the police immediately arrested the killer. Who was the killer ?",easy
+169,"https://www.geeksforgeeks.org/puzzle-find-number-matches/
+",A Tournament of cricket is to played with 100 teams. How many matches needs to be played to get a winner considering all matches are knockouts and the winning team plays with the other winning team ?,easy
+170,"https://www.geeksforgeeks.org/puzzle-chemical-mystery/
+","A famous chemist was found murdered in his laboratory. The police knew that two people were involved in his murder and there were 5 suspects named Join, Bob, Felice, Nicolas and Joshua. Police also found a note which was written by the chemist. In the note, there were written some numbers “26-3-58 / 28-27-57-16”. After reading the numbers, Police immediately found the murderers. Who are the murderers and how did the police know?",medium
+171,"https://www.geeksforgeeks.org/puzzle-who-was-the-murderer/
+","It was the first day of school when a teacher found a student dead in the classroom. Police had identified three suspects named Oliver, Jason and Emma. All of them claimed that they didn’t do it but Jason and Alex seemed nervous during interrogation . Police found a note left behind by the victim. Moments before death, somehow victim was able to write some numbers on the calendars with his blood. The numbers are 1, 4, 9, 10 and 11. What does victim wanted to say through numbers ? Who was the killer  ?",easy
+172,"https://www.geeksforgeeks.org/puzzle-measure-4l-using-given-3-buckets/
+","Suppose you have 8L, 5L  and a 3L bucket with you. The buckets have no measurement lines on them and you are asked to measure exactly 4L of water using the three buckets. How could you measure exactly 4L water using only those buckets and provided you have as much extra water as you need ?",easy
+173,"https://www.geeksforgeeks.org/puzzle-couples-crossing-river/
+","Three couples are on the vacation.They need to cross the river to reach their hotel. There are 3 rules which are as follows:-
+Rule 1:- The boat can only carry two people at a time. If the third person trying to get in the boat then the boat will sink.
+Rule 2:- The husbands are so jealous that they can not let their wife with another man, without their presence.
+Rule 3:- The boat cannot run on itself. At-least one person should be on the boat to go from one side to another.",medium
+174,"https://www.geeksforgeeks.org/puzzle-city-truth-lies/
+","Problem Statement
+A road is divided into two ways of which one leads to City of truth and other leads to City of Lies. All the people of City of Truth always tell truth and all the people from City of Lies always lie. There are two people standing at the division one from City of Truth and other from City of Lies. You don’t know who belongs to which city. You can ask only one question from any of the two people standing there to determine which way leads to city of truth and which leads to city of lies.",easy
+175,"https://www.geeksforgeeks.org/puzzle-distance-time-work/
+","Puzzle : (Distance) There is one scooter which has 2 tyres and one Stepney (i.e. total of 3 tyres). Each tyre can run up to maximum of 5 km. How long will the scooter run?
+Solution :
+7.5 km
+EXPLANATION :
+First, ride scooter for 2.5 km and change the 1st tyre with Stepney.
+Now km remaining for 1st tyre is 2.5 km , 2nd tyre is 2.5 km and Stepney is 5 km
+Again ride scooter for 2.5km and this time change 2nd tyre with 1st tyre.
+Now km remaining for 1st tyre is 2.5 km, 2nd tyre is 0 km and Stepney is 2.5 km
+Now ride 2.5km with remaining 1st tyre and Stepney.
+Total = 2.5 + 2.5 + 2.5 = 7.5km",easy
+176,"https://www.geeksforgeeks.org/puzzle-3-priests-3-devils-puzzle/
+","There are 3 devils and 3 Priests.They all have to cross a river in a boat.Boat can only carry two people at a time.As long as there are equal number of devils and priests,then devils will not eat Priest.If the number of devils are greater than the number of priests on the same side of the river then devils will eat the priests.So how can we make all the 6 peoples to arrive to the other side safely?",medium
+177,"https://www.geeksforgeeks.org/puzzle-secret-mail-problem/
+","A person ‘A’ wants to send a secret message to his friend ‘B’ through a mail, but C (A’s friend), whom A does not trust has access to all A’s mails. So A puts his message in  a box with a lock but A is not allowed to send a key. How can A send his message through securely?",medium
+178,"https://www.geeksforgeeks.org/puzzle-elevator-puzzle/
+","A man works on the 10-th floor and takes the elevator down to ground level at the end of the day.  Yet every morning, he only takes the elevator to the 7th floor, even when in a hurry.
+But he goes all the way to the 10-th floor when others are in the elevator with him or it is a rainy day.  Why?",medium
+179,"https://www.geeksforgeeks.org/puzzle-falling-bear/
+",A bear falling from a height of 10m on the ground in the square root of 2 seconds. what is the color of bear?,medium
+180,"https://www.geeksforgeeks.org/puzzle-measuring-block/
+","Assume that you have a block weighing 40 kg and have tools to divide it as you want. Now, your task is to cut that block into 4 pieces such that only using those 4 pieces and a two-way balancing pan, you can measure any weight from 1 kg to 40 kg ? (You should be able to measure any weight like 1 kg, 2 kg, 3 kg upto 40 kg ).",hard
+181,"https://www.geeksforgeeks.org/puzzle-strict-pill-schedule/
+","Puzzle: You are on a strict medical regimen that requires you to take two types of pills each day. You must take exactly one A pill and exactly one B pill at the same time. The pills are very expensive, and you don’t want to waste any. So you open the bottle of A pills and tap one out into your hand. Then you open the bottle of B pills and do the same thing – but you make a mistake, and two B pills come out into your hand with the A pill. But the pills are all exactly identical. There is no way to tell A pills apart from B pills. Is it possible to satisfy your regimen and take exactly one of each pill at the same time, without wasting any pills?
+",easy
+182,"https://www.geeksforgeeks.org/puzzle-round-table-coin-game/
+","Suppose two player, player A and player B have the infinite number of coins. Now they are sitting near a perfectly round table and going to play a game. The game is, in each turn, a player will put one coin anywhere on the table (not on the top of coin already placed on the table, but on the surface of the table). And the player who places the last coin on the table will win the game. Given player A will always move first suggest a strategy such that player A will always win, no matter how player B will play.",medium
+183,"https://www.geeksforgeeks.org/puzzle-basketball-shots/
+","You have a basketball hoop and someone says that you can play one of two games.
+Game1 : You get one shot to make the hoop.
+Game2 : You get three shots and you have to make two of three shots.
+If p is the probability of making a particular shot, for which values of p should you pick one game or the other?",medium
+184,"https://www.geeksforgeeks.org/puzzle-crack-plan/
+","In an ODI Cricket World Cup finale, India were given a stiff target of 405 runs by Australia to chase . As India is quite good at chasing, India was on the brink of victory, thanks to the two chase masters of India – Virat Kohli and M.S. Dhoni . India were 403 for the loss of 3 wickets in 49.4 overs . So, India needed just three runs in two balls . This was not a big deal for the two talismanic batsman, however, both of them were facing a problem . Virat Kohli was not out on 198 and M.S. Dhoni was playing on 97 . Kohli was going to take the strike for the next ball . Both the batsman after chatting for a few minutes came out with a plan such that Virat Kohli can get a double century, M.S. Dhoni can get a century and also India wins the match, with the two batsman remaining not out .",medium
+185,"https://www.geeksforgeeks.org/puzzle-will-sheep-safe/
+","There is an island with infinite grass and vegetation. The island is inhabited by 1 sheep and n lions . The lions can survive by eating the sheep or vegetation, but they prefer to eat the sheep .",hard
+186,"https://www.geeksforgeeks.org/puzzles-age-time-distance-guess-word-mystery/
+","Puzzle 1 : (Age) One Grandfather, One Father, and One Grand Son. Sum of their ages is 140 years. Grand son’s age in months is equal to Grandfathers age in years Grand son’s age in days is equal to Father’s age in weeks. Now, Find out the age of all three.
+Solution :-
+let x = grandfather’s age
+let y =Father’s age and
+let z = Grandson’s age .
+Then, according to given conditions
+1  x+y+z=140
+2    x=12z
+3  z*365 = (y*365)/7 =&gt; y = 7z
+solving these three equations we will get
+x=84, y=49, z=7
+",hard
+187,"https://www.geeksforgeeks.org/puzzle-japanese-ship-mystery/
+",A Japanese ship was sailing in the Pacific Ocean. Japanese captain of the ship decided to take a shower. He kept his diamond chain and golden watch in the table shelf and went for shower and returned in 10 minutes.,medium
+188,"https://www.geeksforgeeks.org/puzzle-find-last-ball-remain-entire-process/
+","Problem Statement:
+There are 20 red balls and 16 blue balls in a bag. Any 2 balls are removed at each step and are replaced with a new ball on the basis of the following conditions:  ",medium
+189,"https://www.geeksforgeeks.org/puzzles-cryptanalysis-bottles-problem-dinner-time-mystery/
+","Puzzle 1 : (Cryptanalysis) A detective who was mere days away from cracking an international oil smuggling ring has suddenly gone missing. While inspecting his last-known location, officers found a note: 710 57735 34 5508 51 7718. Currently, there are 3 suspects: Bill, John, and Todd. Can you break the detective’s code and find the criminal’s name.
+Solution:  Bill is the suspect, if read upside down the numbers read “Bill is boss. He sells oil.”
+
+Puzzle 2 : (Bottles Problem) A shopkeeper gives a full bottle of soft drink in return for five empty bottles. A guy has 77 empty bottles and he can use them to get full soft drink bottles. How many filled bottles will he be able to collect?
+Solution: The guy can get 19 filled bottles from the shopkeeper.First, he returns 75 empty bottles and gets 15 full soft drinks bottles. From these 15 bottles, he gets 3 full soft drinks bottles. Now using these 3 and earlier 2 bottles, he gets 1 full soft drink bottle.
+So in total, he can get 15+3+1=19 full soft drinks bottles.
+
+Puzzle 3 : (Dinner Time) Two girls ate dinner together. They both ordered iced tea. One girl drank them very fast and had finished five in the time it took the other to drink just one. The girl who drank one died while the other survived. All of the drinks were poisoned. How did the girl who drank the most survive?
+Solution: The poison was in the ice.
+",medium
+190,"https://www.geeksforgeeks.org/puzzle-guess-shape/
+",,hard
+191,"https://www.geeksforgeeks.org/puzzle-two-robot-parachute-line/
+","
+Problem
+Two robots land with their parachutes on an infinite one-dimensional number line. They both release their parachutes as soon as they land and start moving. They are allowed only to make use of the following functions.",hard
+192,"https://www.geeksforgeeks.org/puzzle-solve-quick/
+","Statement :
+If you think that you are good in maths, then solve the mathematical equation :
+( Q + U + I + C + K) ^ 3 = QUICK",hard
+193,"https://www.geeksforgeeks.org/puzzle-heaven-hell/
+","There are two gates, one to hell and the other to heaven. Two gatekeepers, one for each gate. One of them always speaks the truth and the other always lies but you don’t know which one guards which gate. You are allowed only one question and you need to find out the gate to heaven.
+What is the question?",medium
+194,"https://www.geeksforgeeks.org/puzzle-detective-sherlock/
+","Statement : 
+You are playing a game Detective Sherlock and you with your friends are solving a case. However, the way to the solution might be tricky and confusing. Just remember that only one of the statement is TRUE and rest three are FALSE.",easy
+195,"https://www.geeksforgeeks.org/puzzles-river-crossing-starting-money-earrings-matching-pair/
+","Puzzle 1 : (River Crossing)  Seven men and two boys need to cross a river. The one canoe is tiny and can carry either one man or two boys. How many times does the boat have to cross the river for everyone to get to the other side?
+SOLUTION:- The puzzle can be put into the form of a pattern. First, two boys cross. One boy returns. One man cross. Second boys returns. So it takes four trips to carry one man across the river. Since there are seven men, twenty eight crossing are needed to cross all men. One more crossing is required for the boys to get on the other side. So, total of twenty nine crossings are required for everyone to get to the other side.",easy
+196,"https://www.geeksforgeeks.org/puzzle-yesterday-tomorrow/
+","Statement : 
+Your friend said, “If yesterday was tomorrow, today would be Friday.”
+On which day did your friend make this statement ?",easy
+197,"https://www.geeksforgeeks.org/puzzle-10-identical-bottles-pills/
+","Puzzle: Given 10 identical bottles of identical pills (each bottle contains 100 pills). Out of 10 bottles 9 have 1 gram of pills but 1 bottle has pills of the weight of 1.1 gram. Given a measurement scale, how would you find the heavy bottle? You can use the scale only once. ",medium
+198,"https://www.geeksforgeeks.org/camels-and-travellers/
+",In a desert there are some camels and some travelers. How many camels and travelers are there if both the following statements are TRUE? ,easy
+199,"https://www.geeksforgeeks.org/weight-heavy-ball/
+","Puzzle: There are 2187 balls, out of which 1 is heavy. Find the minimum number of attempts the balls have to be weighed for finding out the heavy ball.
+",easy
+200,"https://www.geeksforgeeks.org/puzzle-4-matchstick-problem/
+","
+Question:-
+You are given 4 matchsticks arrange in the form of a plus sign(as shown in the
+ figure). Move one and only one of the 4 matchsticks to make a square. You
+may not bend or break of the matchstick.
+",medium
+201,"https://www.geeksforgeeks.org/equilateral-triangles-using-matchsticks/
+","
+You are given an equilateral triangle of three matchsticks like given figure. What is the minimum number of sticks needed to add three more equilateral triangles to it?
+",easy
+202,"https://www.geeksforgeeks.org/blue-eyed-island-puzzle/
+","
+Question : A bunch of people are living on an island, when a visitor comes with a strange order : all the blue-eyed people must leave the island as soon as possible. There will be a flight out at 8 PM every evening.Each person can see everyone else’s eye color, but they do not their own(nor is anyone allowed to tell them). Additionally they do not know how many people have blue eyes, although they do know that at least one person does. How many days will it take to blue-eyed people to leave?",medium
+203,"https://www.geeksforgeeks.org/four-people-rickety-bridge/
+","Question : Four people need to cross a rickety bridge at night. Unfortunately, they have one torch and the bridge is to dangerous to cross without a torch. The bridge can support only two people at a time. All the people don’t take the same time to cross the bridge. Time for each person : 1 mins, 2 mins, 7 mins and 10 mins. What is the shortest time needed for all four of them to cross the bridge ?",easy
+204,"https://www.geeksforgeeks.org/missionaries-and-cannibals/
+","Question: In this problem, three missionaries and three cannibals must cross a river using a boat which can carry at most two people, under the constraint that, for both banks, that the missionaries present on the bank cannot be outnumbered by cannibals. The boat cannot cross the river by itself with no people on board. ",medium
+205,"https://www.geeksforgeeks.org/measuring-6l-water-4l-9l-buckets/
+",Question: Suppose you have a 4 liter jug and a 9 liter bucket . The buckets have no measurement lines on them either. How could you measure exactly 6 liter using only those buckets and you have as much extra water as you need ?,easy
+206,"https://www.geeksforgeeks.org/find-minimum-elements-considering-possible-transformations/
+","Given an array of three colors.  The array elements have a special property. Whenever two elements of different colors become adjacent to each other, they merge into an element of the third color.  How many minimum numbers of elements can be there in the array after considering all possible transformations.",medium
+207,"https://www.geeksforgeeks.org/puzzle-85-chain-link-puzzle/
+","You have five pieces of chain, each consisting of three links. You want to make one long chain of these five pieces. Breaking open a link costs 1 Rs, and welding an open link costs 3 Rs.",medium
+208,"https://www.geeksforgeeks.org/puzzle-84-inverted-matrix/
+","
+You have been given the following matrix:",medium
+209,"https://www.geeksforgeeks.org/puzzle-83-interesting-mcq/
+"," 
+Geeks are too good at solving logical problems. But, this time a Multiple Choice Question was put in front of them having only three options .
+Q. There is only one correct answer to this question. Which answer is this?
+A. Answer A
+B. Answer A or B
+C. Answer B or C
+Geeks are stuck at this question. Help them out.",easy
+210,"https://www.geeksforgeeks.org/puzzle-82-different-pairings/
+","Joey has to arrange 2N sandwiches which are wrapped by different color wrapper in N pairs such that he can feed his N girlfriends (A hypothetical situation it is where we have to ignore the fact “JOEY DOESN’T SHARE FOOD ”). He has to serve them for 2N-1 Days. Girls don’t like repeated pair of color wrapper of their sandwiches.
+Design an algorithm for joey so that for 2N-1 days no pair would be same.",hard
+211,"https://www.geeksforgeeks.org/puzzle-100-people-in-a-circle-with-gun-puzzle/
+","100 people standing in a circle in an order 1 to 100. No. 1 has a sword. He kills the next person (i.e. No. 2) and gives the sword to the next (i.e. No. 3). All people do the same until only 1 survives. Which number survives at the last?
+There are 100 people starting from 1 to 100.",medium
+212,"https://www.geeksforgeeks.org/puzzle-80-tic-tac-toe/
+","Ank and Mini play a game of tick-tack-toe. In this game, the players try to get three circles or three crosses in a row (horizontal, vertical, or diagonal).
+They follow the following rules:",hard
+213,"https://www.geeksforgeeks.org/puzzle-79-magical-matrix/
+","Two friends Satyam and Ankit decides to play a game. They have 9 cards lying face up with numbers 1 to 9 written on them. They have to start picking up these cards alternately, without replacement. The person with exactly 3 cards which adds up to 15 wins the game. Satyam is given first chance to pick up a card . Does Satyam have a winning strategy?
+Solution: No
+Explanation: We see that there are eight subsets of {1,9} that sums up to 15. These are:
+{1, 5, 9}, {2, 8, 5}, {3, 5, 7}, {4, 5, 6}, {1, 6, 8}, {2, 4, 9}, {2, 7, 6} and {3, 8, 4}",medium
+214,"https://www.geeksforgeeks.org/puzzle-78-the-lost-bus-number/
+"," 
+Jay was an old friend of Rakesh and was coming to visit him from a small town. Jay came over late. When Rakesh asked him the reason, Jay told him that when he was coming to the city in the bus, he had placed his luggage under his seat. While getting off, he had forgotten to take back the luggage and by the time he had realized, the bus had left. So he went to a police station to report about it, which took him time. Rakesh inquired what happened next, to which Jay replied that he does not remember the bus number but there was a certain peculiarity about it – the bus number was a perfect square and when turned upside down, then it was also a perfect square! Jay requested his friend Rakesh to help him.
+Rakesh quickly phoned the bus company and came to know they had only 500 buses numbered from 1 to 500. Using this information, Rakesh deduced the bus number within a minute. Can you tell what was the number?
+ 
+ 
+ 
+Solution : Bus number was 196.",easy
+215,"https://www.geeksforgeeks.org/puzzle-77-the-better-choice/
+","Many students applied for a technical job for a month(April) but only two among them successfully completed the technical rounds. It was time for the final Interview. The interviewer asked both the students whether they would like to have 10 crores rupees for the month or, Re. 1 on day 1, Rs. 2 on day 2, Rs. 4 on day 3 , doubling up everyday till the last day of the month.
+Student 1 chose 10 crore rupees. Student 2 chose the other option.
+Which student made a better choice and how much was the profit?",easy
+216,"https://www.geeksforgeeks.org/puzzle-76-toggling-prison-cell/
+", ,medium
+217,"https://www.geeksforgeeks.org/puzzle-75-prisoners-hat/
+","A Police officer caught four criminals. He plays a game with these four men. He lines up three of the prisoners (A, B, C) in one room and the fourth prisoner(D) is placed in a separate room.
+Each prisoner is given a hat to wear. The officer tells them that there are in total two blue hats and two red hats. If any of them can guess the color of the hat they are wearing right, he promises to set all four of them free. They cannot communicate with each other, the only information is that ",easy
+218,"https://www.geeksforgeeks.org/puzzle-74-chocolate-love/
+","Priyanka visited a famous monument called “holyghar” located near Himalayas. It was a round structure consisting of 100 steps in spiral stairway to reach top. From top you can have overview of natural beauty surrounding that place. Priyanka thought of reaching the top. She also carried a lot of chocolates with her for kids. In the process of climbing up, with each step a chocolate falls from her bag. When she reaches top, she donates half of the chocolates left with her to small kids. Again, in the process of climbing down a chocolate falls down with each step.
+She repeats the same process at five holyghars and now she is left with no chocolates. Can you find out the total number of chocolates she had with her initially?
+",easy
+219,"https://www.geeksforgeeks.org/puzzle-73-the-card-game/
+","A blind man is handed a deck of 52 cards and told that exactly 10 of these cards are facing up. How can he divide the cards into two piles, not necessarily of equal size, with each pile having the same number of cards facing up?",medium
+220,"https://www.geeksforgeeks.org/puzzle-72-diseases-and-tests/
+","Dinoo is worried that he might have a rare disease. He decides to get himself  tested, and suppose that the testing methods for this disease are correct 99 percent of the time (in other words, if he has the disease, it shows that he does with 99 percent probability, and if he doesn’t have the disease, it shows that he does not with 99 percent probability). Suppose this disease is actually quite rare, occurring randomly in the general population in only one of every 10,000 people.
+If his test results come back positive, what are his chances that he actually have the disease?",hard
+221,"https://www.geeksforgeeks.org/puzzle-correct-number-to-save-life/
+","Gabbar and his Sambha are fond of playing number games. But as usual, if Sambha loses the game, he dies. Gabbar and Sambha take their turn to call out a number between 1 to n. They follow the following rules while playing the game:",hard
+222,"https://www.geeksforgeeks.org/puzzle-70-tom-and-jerry/
+",Once upon a time Tom and Jerry thought of having a race on a circular track. The diameter of the track was 200 yards.,hard
+223,"https://www.geeksforgeeks.org/puzzle-the-number-game/
+","Ankur and Vijay are fond of playing Number games. In one of the games, Ankur has to choose a number X, such that X belongs to [1, 10000] . Vijay has to guess the chosen number as soon as possible. Ankur will let Vijay know whether his guess is smaller than, larger than or equal to the number. The warning is that Vijay loses the game if his guess is larger than Ankur’s chosen number two or more times.",easy
+224,"https://www.geeksforgeeks.org/walking-down-the-hill/
+","I can walk 3 miles per hour uphill and 4 miles per hour on flat land and 6 miles per hour downhill.If I reached beach near by me, walking for 50 minutes and I walked back home in 1 hour, can you calculate the total distance from my house to the beach? (Note: I walk with same uniform speed.)",easy
+225,"https://www.geeksforgeeks.org/puzzle-fit-triangle/
+",Sameer asks his friend Kartik a question to test his intelligence.,hard
+226,"https://www.geeksforgeeks.org/puzzle-66-walk-to-office/
+","Alex’s friend Grace drops her every day to work in the morning to her office, but cannot help to drop her back home in the evening. Ṣhe walks back home from work every day . But after a few days, As a reward of her sincerity in work, her boss offered her a metro pass. Now she needs to walk only from her office to a nearby metro station and from a station nearby her house to her house . Following this routine, she walks 1/8th times less than before. Assume that she always walks with the same speed, she reached home 15 minutes earlier than usual. If the time she traveled in the metro (apart from her walking) is 5 minutes, what is the total amount of time she used to walk in her older routine (without taking metro)?",easy
+227,"https://www.geeksforgeeks.org/puzzle-hats-off/
+","A king wants his daughter to marry one of 3 young princes, so he devises an intelligence test. The princes are gathered into a room and are shown 2 black hats and 3 white hats. They are blindfolded, and 1 hat is placed on each of their heads, with the remaining hats hidden in a different room. The king tells them that the first prince to deduce the color of his hat without removing it or looking at it will marry his daughter. A wrong guess will mean death. The blindfolds are then removed. You are one of the princes. You see 2 white hats on the other prince’s heads. After some time you realize that the other princes are unable to guess the color of their hat. What is the color of your hat?",medium
+228,"https://www.geeksforgeeks.org/puzzle-surround-the-villages/
+","In a district called Daulatpur, which is one of the best planned city in the world, there is a certain arrangements of villages. The arrangement adheres the following design patterns:",hard
+229,"https://www.geeksforgeeks.org/puzzle-paper-ball-and-three-friends/
+","It’s summer time and three of the college friends, A, B and C went to sports club to enjoy the vacation. They saw an interesting game being played there.",medium
+230,"https://www.geeksforgeeks.org/puzzle-gold-or-silver/
+","There are three boxes box1, box2 and box3 containing gold, silver and  mixture of silver and gold respectively.",easy
+231,"https://www.geeksforgeeks.org/puzzle-cake-and-my-freind/
+","Praveer ‘the most hungry guy‘ in college went to get some delicious cakes for his friends birthday. When he entered the famous shop “Taste the variety”, he was thrilled to see variety of cakes being displayed. He went to the seller and asked for cake. Seller told him that he has a very unique arrangement for cakes. He would be getting chunk of cakes pieces in boxes of 7, 11 or 17. Obviously he could purchase exactly 18 pieces by buying a box of 7 and a box of 11. Hearing this, he started imagining the largest number for which it is impossible to purchase exactly that number of pieces using above combination. Well as always, his hunger was deviating him from thinking, he asked for your help.",hard
+232,"https://www.geeksforgeeks.org/puzzle-colliding-stars/
+","Gyani baba is fond of giving new theories about stars. He discovered that there are two type of stars in this universe; one “X” type and another “Y” type stars. In one of his theories about these stars, he states that if n “X” type of stars collide with m “Y” type of stars, the collision results to formation of (m+n ) new “Y” type of stars, elimination of previous n “X” type of stars, and change of type from “Y” to “X” of previous “Y” type of stars. He termed this whole phenomenon as a “Big Bang”. The phenomenon is governed by following rules:",easy
+233,"https://www.geeksforgeeks.org/puzzle-catch-the-thief/
+","Problem: Three cars, an Alto, a Zen and a Nano were stolen. There are 3 suspects (Arun, Kartik and Varun). Each stole 1 vehicle. Here is what they say:",easy
+234,"https://www.geeksforgeeks.org/puzzle-friends-ages/
+","Two old friends, Jacky and Bob, meet after a long time.
+Jacky: Hey, how are you man?
+Bob: Not bad, got married and I have three kids now.
+Jacky: That’s awesome. How old are they?
+Bob: The product of their ages is 72 and the sum of their ages is the same as your birth date.
+Jacky: Cool… But I still don’t know.
+Bob: My eldest kid just started taking piano lessons.
+Jacky: Oh now I get it.",easy
+235,"https://www.geeksforgeeks.org/puzzle-priests-temple/
+","There are 20 priests in a temple. One day, Lord Shiva appears before them and tells them that some of them have sinned, and that a black spot would appear on the forehead of all the priests who have sinned. The priests are not allowed to look into a mirror or communicate with each other. When any priest finds out that there is a spot on his forehead, he should leave the temple on that day itself. At least 1 priest has sinned. How can a priest find out whether he has a spot on his forehead. What would be the pattern of the priests leaving the temple?",medium
+236,"https://www.geeksforgeeks.org/puzzle-chinchillas-relation/
+","Q. A young pair of chinchillas (one of each sex) is placed on an island. A pair of chinchillas does not breed until they are 2 months old. After they are 2 months old, each pair of chinchillas produces another pair each month (See pic below). Find a recurrence relation for the number of pairs of chinchillas on the island after n months, assuming that no chinchillas ever die.",medium
+237,"https://www.geeksforgeeks.org/puzzle-dollars-with-cashier/
+",Puzzle: A Geek asks a cashier to pay Rs 200 for a cool program written by him. He asks the cashier to pay only in the following way:,easy
+238,"https://www.geeksforgeeks.org/fill-the-jug/
+","There are two jugs each of 4 and 3 liters respectively , without any measuring marks. how many minimum steps are required to have 2 liters of water into the 4 litre jug (the jugs can be filled any number of times with water, and they can be emptied any number of times). ",easy
+239,"https://www.geeksforgeeks.org/the-counterfeit-coin/
+","A box contains n coins, of which 7 of them are counterfeit with tails on both sides and the rest are fair coins. If one coin is selected from the bag and tossed, the probability of getting a tail is 17/20. Find the value of ‘n’.",easy
+240,"https://www.geeksforgeeks.org/puzzle-52-boy-with-marbles/
+","A boy goes to 20 of his friend’s houses with ‘n’ number of newly purchased marbles in his hands. At every house he visits , he gives away half of marbles he have and take one of his friend’s marble’s and adds it with the one’s he is left with , he never had a problem of dividing an odd number of marbles left and finally after leaving the his 20th friends house, he is left with 2 marbles, can you guess the ‘n’ value?",easy
+241,"https://www.geeksforgeeks.org/cheryls-birthday-puzzle-and-solution/
+","(Wiki) Cheryl’s Birthday is the unofficial name given to a mathematics brain teaser that was asked in the Singapore and Asian Schools Math Olympiad, and was posted online on 10 April 2015 by Singapore TV presenter. It is an interesting problem and might be asked in the interviews. It is based on logical deduction. It doesn’t require any prior mathematical acumen. It is advised that you try to hustle through the problem yourself without looking at the solution and just to motivate you further to solve the problem, the problem has been talked about in international newspapers like Telegraph and Guardian, so If you are able to solve the problem without looking at the solution you deserve a pat on the back!",hard
+242,"https://www.geeksforgeeks.org/puzzle-50-the-boat-wreckage/
+","Let’s make this one easy! Ankur with his friends went to river the bank of river Ganges, as the exams are over for fun and recreation.  But while crossing to other side of the river, a storm came and he along with fourteen other people are trapped in a boat in the mid of the river. None of them know how to swim, and due to a hole in the base the boat is about to sink in 20 minutes.  Their only chance to survival is the five-person raft stowed on their vessel.",easy
+243,"https://www.geeksforgeeks.org/puzzle-49-king-and-his-elephant-power/
+","A king dies after writing an agreement to divide the elephant power to his three sons, the first son has to get 1/2 of elephants, second son gets 3/4th of remaining elephants left after giving away to the first son, third son gets 1/2th of remaining elephants left after giving away to the second son. The total number of elephants are 15. All elephants are to be divided without leaving anyone of them behind. Can you solve it?",easy
+244,"https://www.geeksforgeeks.org/puzzle-48-rectangular-cardboard/
+",Given a rectangular cardboard with a rectangular piece removed(of any size and orientation) how one can cut the rectangular cardboard in two equal parts with one straight line cut.,medium
+245,"https://www.geeksforgeeks.org/puzzle-47-red-hat-vs-blue-hat/
+","A team of three people decide on a strategy for playing the following game. Each player walks into a room. On the way in, a fair coin is tossed for each player, deciding that player’s hat color, either red or blue. Each player can see the hat colors of the other two players, but cannot see her own hat color. After inspecting each other’s hat colors, each player decides on a response which are one of the following :",hard
+246,"https://www.geeksforgeeks.org/puzzle-46-true-or-false/
+","A place has two kinds of residents, Poor, who always tell the truth, and their opposites, Rich, who always lie. You encounter two people A and B. What are A and B if A says “B is a Poor” and B says “The two of us are opposite types” ?",easy
+247,"https://www.geeksforgeeks.org/puzzle-45-gem-in-pockets/
+","Vijay Dinanath Chauhan aka “VDC” was travelling from Bangalore to New Delhi along with his friends. VDC was wearing a Cargo Jeans with finite number of small pockets. And in his pockets, there were packets of gems, not the real ones,actually the Cadbury gems to eat when he reaches Delhi.In each pocket there was “number of packets”, that was equal to the “number of pockets”. In each packet there was a “number of gems”; and the “number of gems” was equal to the “number of packets”.Unfortunately, when he reaches Delhi and gets down from the train, due to huge crowd he lost one of his Cadbury gems packet.",medium
+248,"https://www.geeksforgeeks.org/puzzle-44-girl-or-boy/
+","The Boy or Girl problem consists of a bunch of questions in probability which has kept the mathematicians on discussion about its possibilities.  But different from them, here is one puzzle for you with no ambiguity.",hard
+249,"https://www.geeksforgeeks.org/puzzle-43-muddy-heads/
+","A mother tells her two children, a boy and a girl, to play without getting dirty.
+However, while playing, both children get mud on their foreheads.
+The mother says “At least one of you has a muddy forehead”. She then asks the children to answer “Yes” or “No” to the question: “Do you know whether you have a muddy forehead?”
+The mother asks this question twice.
+What will the children answer each time this question is asked, assuming that a child can see whether his/her sibling has a muddy forehead, but cannot see his or her own forehead? Assume that both children are honest and that the children answer each question simultaneously.",easy
+250,"https://www.geeksforgeeks.org/puzzle-42-placing-the-numbers/
+", ,medium
+251,"https://www.geeksforgeeks.org/puzzle-41-guess-color-of-hat/
+","There are 20 people standing in a line, one behind the other. Each is made to wear a hat, which can either be white or black. There can be any number of white or black hats between 0 and 20. Each person can see the hat of all the persons ahead of him in the line, but not those of the people standing behind. Each person is required to guess (loudly) the color of his/her own hat. The objective is for the group to get as many correct guesses as possible. The group is allowed to discuss and form a strategy before the exercise. What is the best strategy? What is the maximum number of correct guesses in this strategy? ",medium
+252,"https://www.geeksforgeeks.org/puzzle-40-find-missing-row-in-excel/
+","We are given an excel sheet which contains integers from 1 to 50, including both. However, the numbers are in a jumbled form and there is 1 integer missing. You have to write a code to identify the missing integer. Only the logic is required. ",easy
+253,"https://www.geeksforgeeks.org/puzzle-39-hundred-coin-puzzle/
+",This puzzle is similar to 10 Coins Puzzle.   Question: 100 coins are lying flat on a table. 10 of them are heads up and 90 are tails up.You can’t see which one is which.How can we split the coins into two piles such that there are same number of heads up in each pile?,medium
+254,"https://www.geeksforgeeks.org/puzzle-38-tic-tac-toe-puzzle/
+","Statement:
+The game of Tic-Tac-Toe is being played between two players and it is in below state after six moves.",medium
+255,"https://www.geeksforgeeks.org/puzzle-37-maximum-run-in-cricket/
+","Question:  In a one day international cricket match, considering no extras(no wides, no ‘no’ balls, etc.) and no overthrows.",easy
+256,"https://www.geeksforgeeks.org/puzzle-36-matchstick-puzzle/
+",Question: How to make 4 equilateral triangles with 6 identical match sticks? ,easy
+257,"https://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/
+",The following is a description of the instance of this famous puzzle involving 2 eggs and a building with 100 floors.,hard
+258,"https://www.geeksforgeeks.org/puzzle-34-prisoner-and-policeman-puzzle/
+","Policeman decided to punish the Prisoner and asked him to make a statement. The Prisoner should make such a statement so that he would be alive.
+If the statement is held true by Policeman, the Prisoner will be hanged to death and if the statement is held false, the Prisoner will be shot dead.",medium
+259,"https://www.geeksforgeeks.org/puzzle-33-rs-500-note-puzzle/
+","A Lady (L) bought an item of Rs 100 from the Shopkeeper (C).  She paid him through a 500 Rs Note.  Realizing that he did not have change, the shopkeeper C got change for that note from another shopkeeper (S) and paid Rs 400 to the Lady.",easy
+260,"https://www.geeksforgeeks.org/puzzle-32-completion-of-task/
+","A man is allocated a task. He doubles the task done everyday. If the man completely does the task in 18 days, how many days did it take for the man to complete 25% of the task? ",easy
+261,"https://www.geeksforgeeks.org/puzzle-31-minimum-cut-puzzle/
+",Puzzle: You have got someone working for you for five days and a gold bar to pay him. You must give them a piece of gold at the end of every day. What are the fewest number of cuts to the bar of gold that will allow you to pay him 1/5th each day?,easy
+262,"https://www.geeksforgeeks.org/puzzle-30-last-palindrome-data/
+","In year 2001 on October 2, 2001, the date in MMDDYYYY format was a palindrome (same forwards as backwards), 10/02/2001 -&gt; “10022001”",medium
+263,"https://www.geeksforgeeks.org/puzzle-29-car-wheel-puzzle/
+","Puzzle: A car has 4 tyres and 1 spare tyre. Each tyre can travel a maximum distance of 20000 miles before wearing off. What is the maximum distance the car can travel before you are forced to buy a new tyre? You are allowed to change tyres (using the spare tyre) an unlimited number of times.
+",easy
+264,"https://www.geeksforgeeks.org/puzzle-28-newspaper-puzzle/
+","Question: A newspaper made of 16 large sheets of paper folded in half. The newspaper has 64 pages altogether. The first sheet contains pages 1, 2, 63, 64.",easy
+265,"https://www.geeksforgeeks.org/puzzle-27-hourglasses-puzzle/
+","Puzzle: Given two hourglass of 4 minutes and 7 minutes, the task is to measure 9 minutes.
+",medium
+266,"https://www.geeksforgeeks.org/puzzle-26-know-average-salary-without-disclosing-individual-salaries/
+",Three Employees want to know the average of their salaries.  They are not allowed to share their individual salaries.,hard
+267,"https://www.geeksforgeeks.org/puzzle-25chessboard-and-dominos/
+","There is an 8 by 8 chessboard in which two diagonally opposite corners have been cut off.You are given 31 dominos, and a single domino can cover exactly two squares. Can you use the 31 dominos to cover the entire board?",medium
+268,"https://www.geeksforgeeks.org/puzzle-24-10-coins-puzzle/
+","You are blindfolded and 10 coins are place in front of you on table. You are allowed to touch the coins, but can’t tell which way up they are by feel. You are told that there are 5 coins head up, and 5 coins tails up but not which ones are which.",medium
+269,"https://www.geeksforgeeks.org/puzzle-23-days-of-month-using-2-dice/
+","Puzzle: How can you represent days of month using two 6 sided dice? You can write one number on each face of the dice from 0 to 9 and you have to represent days from 1 to 31, for example for 1, one dice should show 0 and another should show 1, similarly for 29 one dice should show 2 and another should show 9.
+",medium
+270,"https://www.geeksforgeeks.org/puzzle-22-maximum-chocolates/
+",You have 15 Rs with you.  You go to a shop and shopkeeper tells you price as 1 Rs per chocolate.  He also tells you that you can get a chocolate in return of 3 wrappers.  How many maximum chocolates you can eat?,easy
+271,"https://www.geeksforgeeks.org/puzzle-21-3-ants-and-triangle/
+",There are 3 ants sitting on three corners of a triangle.   All ants randomly pick a direction and start moving along edge of the triangle. What is the probability that any two ants collide?,easy
+272,"https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+","There are 5 pirates, they must decide how to distribute 100 gold coins among them. The pirates have seniority levels, the senior-most is A, then B, then C, then D, and finally the junior-most is E. ",easy
+273,"https://www.geeksforgeeks.org/puzzle-19-poison-and-rat/
+",There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.,hard
+274,"https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/
+","Puzzle: There are 4 persons (A, B, C and D) who want to cross a bridge in night. ",medium
+275,"https://www.geeksforgeeks.org/puzzle-17-ratio-of-boys-and-girls-in-a-country-where-people-want-only-boys/
+","In a country, all families want a boy.  They keep having babies till a boy is born.   What is the expected ratio of boys and girls in the country?",medium
+276,"https://www.geeksforgeeks.org/puzzle-16-100-doors/
+","There are 100 doors in a row, all doors are initially closed. A person walks through all doors multiple times and toggle (if open then close, if close then open) them in following way: ",medium
+277,"https://www.geeksforgeeks.org/puzzle-15-camel-and-banana-puzzle/
+","A person has 3000 bananas and a camel. The person wants to transport the maximum number of bananas to a destination which is 1000 KMs away, using only the camel as a mode of transportation. The camel cannot carry more than 1000 bananas at a time and eats a banana every km it travels. What is the maximum number of bananas that can be transferred to the destination using only camel (no other mode of transportation is allowed). ",hard
+278,"https://www.geeksforgeeks.org/puzzle-14-strategy-for-a-2-player-coin-game/
+","Puzzle: Consider a two-player coin game where each Player A and Player B gets the turn one by one.  There is a row of even number of coins, and a player on his/her turn can pick a coin from any of the two corners of the row.  The player that collects coins with more value wins the game. Develop a strategy for the player making the first turn i.e, Player A, such that he/she never loses the game.",medium
+279,"https://www.geeksforgeeks.org/puzzle-13-100-prisoners-with-redblack-hats/
+","100 prisoners in jail are standing in a queue facing in one direction.  Each prisoner is wearing a hat of color either black or red.  A prisoner can see hats of all prisoners in front of him in the queue, but cannot see his hat and hats of prisoners standing behind him.
+The jailer is going to ask color of each prisoner’s hat starting from the last prisoner in queue. If a prisoner tells the correct color, then is saved, otherwise executed.  How many prisoners can be saved at most if they are allowed to discuss a strategy before the jailer starts asking colors of their hats.",medium
+280,"https://www.geeksforgeeks.org/puzzle-12-maximize-probability-of-white-ball/
+","There are two empty bowls in a room. You have 50 white balls and 50 black balls. After you place the balls in the bowls, a random ball will be picked from a random bowl. Distribute the balls (all of them) into the bowls to maximize the chance of picking a white ball. ",medium
+281,"https://www.geeksforgeeks.org/puzzle-11-1000-coins-and-10-bags/
+",A dealer has 1000 coins and 10 bags. He has to divide the coins over the ten bags so that he can make any number of coins simply by handing over a few bags. How must divide his money into the ten bags? ,medium
+282,"https://www.geeksforgeeks.org/puzzle-10-a-man-with-medical-condition-and-2-pills/
+","Puzzle: A man has a medical condition that requires him to take two kinds of pills, call them A and B. The man must take exactly one A pill and exactly one B pill each day, or he will die. The pills are taken by first dissolving them in water. ",easy
+283,"https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/
+",There are 25 horses among which you need to find out the fastest 3 horses. You can conduct race among at most 5 to find out their relative speed. At no point you can find out the actual speed of the horse in a race. Find out how many races are required to get the top 3 horses.,hard
+284,"https://www.geeksforgeeks.org/puzzle-7-find-the-jar-with-contaminated-pills/
+","Puzzle: You have 5 jars of pills. Each pill weighs 10 grams, except for contaminated pills contained in one jar, where each pill weighs 9 grams. Given a scale, how could you tell which jar had the contaminated pills in just one measurement?
+",medium
+285,"https://www.geeksforgeeks.org/puzzle-7-3-bulbs-and-3-switches/
+","There is a room with a door (closed) and three light bulbs. Outside the room, there are three switches, connected to the bulbs. You may manipulate the switches as you wish, but once you open the door you can’t change them. Identify each switch with its bulb. All bulbs are in working condition.Let the bulbs be X, Y, and Z Turn on switch X for 5 to 10 minutes. Turn it off and turn on switch Y. Open the door and touch the light bulb. 1. if the light is on, it is Y 2. if the light is off and hot, it is X 3. if the light is off and cold, it is Z Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above ",easy
+286,"https://www.geeksforgeeks.org/puzzle-6-monty-hall-problem/
+","Suppose you’re on a game show, and you’re given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what’s behind the doors, opens another door, say No. 3, which has a goat. He then says to you, “Do you want to pick door No. 2?” Is it to your advantage to switch your choice?",medium
+287,"https://www.geeksforgeeks.org/puzzle-5-finding-the-injection-for-anesthesia/
+","In a Medical Laboratory, you have 240 Injections, one of which is for Anesthesia for a rat. After injecting, one rat fainted exactly in 24 hours. You have 5 rats whom you are willing to sacrifice in order to determine which injections contains the Anesthesia. How do you achieve this in 48 hours ? ",hard
+288,"https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-units/
+","An employee works for an employer for 7 days.  The employer has a gold rod of 7 units.  How does the employer pay to the employee, so that the number of employee’s units increases by one at the end of each day.  The employer can make at most 2 cuts in the rod.",easy
+289,"https://www.geeksforgeeks.org/puzzle-3-calculate-total-distance-travelled-by-bee/
+","Puzzle: Two trains are on same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from first train to second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance travelled by the bee. Speed of bee is 80 km/h.
+",easy
+290,"https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/
+",Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him first hint.,medium
+291,"https://www.geeksforgeeks.org/puzzle-1-how-to-measure-45-minutes-using-two-identical-wires/
+","How do we measure forty-five minutes using two identical wires, each of which takes an hour to burn? We have matchsticks with us. The wires burn non-uniformly. So, for example, the two halves of wire might burn in 10 minutes and 50 minutes respectively
+",easy
